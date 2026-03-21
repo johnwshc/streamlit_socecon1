@@ -1,0 +1,3754 @@
+{
+    "populations": [
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1900,
+            "population": 695000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1901,
+            "population": 699000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1902,
+            "population": 703000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1903,
+            "population": 709000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1904,
+            "population": 719000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1905,
+            "population": 723000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1906,
+            "population": 729000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1907,
+            "population": 731000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1908,
+            "population": 735000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1909,
+            "population": 740000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1910,
+            "population": 745000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1911,
+            "population": 751000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1912,
+            "population": 753000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1913,
+            "population": 763000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1914,
+            "population": 772000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1915,
+            "population": 774000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1916,
+            "population": 775000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1917,
+            "population": 777000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1918,
+            "population": 760000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1919,
+            "population": 762000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1920,
+            "population": 771000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1921,
+            "population": 775000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1922,
+            "population": 778000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1923,
+            "population": 781000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1924,
+            "population": 788000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1925,
+            "population": 792000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1926,
+            "population": 793000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1927,
+            "population": 796000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1928,
+            "population": 797000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1929,
+            "population": 797000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1930,
+            "population": 800000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1931,
+            "population": 807000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1932,
+            "population": 815000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1933,
+            "population": 821000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1934,
+            "population": 829000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1935,
+            "population": 836000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1936,
+            "population": 840000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1937,
+            "population": 842000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1938,
+            "population": 843000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1939,
+            "population": 846000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1940,
+            "population": 849000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1941,
+            "population": 852000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1942,
+            "population": 839000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1943,
+            "population": 806000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1944,
+            "population": 801000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1945,
+            "population": 800000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1946,
+            "population": 832000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1947,
+            "population": 854000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1948,
+            "population": 878000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1949,
+            "population": 903000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1950,
+            "population": 917000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1951,
+            "population": 916000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1952,
+            "population": 915000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1953,
+            "population": 913000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1954,
+            "population": 927000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1955,
+            "population": 934000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1956,
+            "population": 938000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1957,
+            "population": 943000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1958,
+            "population": 944000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1959,
+            "population": 957000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1960,
+            "population": 975000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1961,
+            "population": 995000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1962,
+            "population": 994000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1963,
+            "population": 993000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1964,
+            "population": 993000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1965,
+            "population": 997000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1966,
+            "population": 999000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1967,
+            "population": 1004000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1968,
+            "population": 994000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1969,
+            "population": 992000
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1970,
+            "population": 993722
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1971,
+            "population": 1015390
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1972,
+            "population": 1034292
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1973,
+            "population": 1045655
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1974,
+            "population": 1059040
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1975,
+            "population": 1071995
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1976,
+            "population": 1088412
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1977,
+            "population": 1103578
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1978,
+            "population": 1113566
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1979,
+            "population": 1122563
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1980,
+            "population": 1126860
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1981,
+            "population": 1133033
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1982,
+            "population": 1136684
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1983,
+            "population": 1144772
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1984,
+            "population": 1155635
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1985,
+            "population": 1162936
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1986,
+            "population": 1170126
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1987,
+            "population": 1184574
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1988,
+            "population": 1203840
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1989,
+            "population": 1219961
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1990,
+            "population": 1231296
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1991,
+            "population": 1235439
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1992,
+            "population": 1235748
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1993,
+            "population": 1238256
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1994,
+            "population": 1237687
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1995,
+            "population": 1237438
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1996,
+            "population": 1241436
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1997,
+            "population": 1245215
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1998,
+            "population": 1247554
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 1999,
+            "population": 1253040
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2000,
+            "population": 1277072
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2001,
+            "population": 1285692
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2002,
+            "population": 1295960
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2003,
+            "population": 1306513
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2004,
+            "population": 1313688
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2005,
+            "population": 1318787
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2006,
+            "population": 1323619
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2007,
+            "population": 1327040
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2008,
+            "population": 1330509
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2009,
+            "population": 1329590
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2010,
+            "population": 1327651
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2011,
+            "population": 1328473
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2012,
+            "population": 1328094
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2013,
+            "population": 1328543
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2014,
+            "population": 1331217
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2015,
+            "population": 1329098
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2016,
+            "population": 1332348
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2017,
+            "population": 1335743
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2018,
+            "population": 1340123
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2019,
+            "population": 1345770
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2020,
+            "population": 1364571
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2021,
+            "population": 1378931
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2022,
+            "population": 1390922
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2023,
+            "population": 1399646
+        },
+        {
+            "state": "Maine",
+            "abbreviation": "ME",
+            "year": 2024,
+            "population": 1405012
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1900,
+            "population": 1754000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1901,
+            "population": 1805000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1902,
+            "population": 1862000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1903,
+            "population": 1901000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1904,
+            "population": 1945000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1905,
+            "population": 1981000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1906,
+            "population": 1987000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1907,
+            "population": 1995000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1908,
+            "population": 2020000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1909,
+            "population": 2051000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1910,
+            "population": 2086000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1911,
+            "population": 2119000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1912,
+            "population": 2147000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1913,
+            "population": 2190000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1914,
+            "population": 2234000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1915,
+            "population": 2273000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1916,
+            "population": 2308000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1917,
+            "population": 2329000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1918,
+            "population": 2291000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1919,
+            "population": 2346000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1920,
+            "population": 2403000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1921,
+            "population": 2434000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1922,
+            "population": 2451000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1923,
+            "population": 2487000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1924,
+            "population": 2521000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1925,
+            "population": 2540000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1926,
+            "population": 2560000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1927,
+            "population": 2588000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1928,
+            "population": 2592000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1929,
+            "population": 2572000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1930,
+            "population": 2576000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1931,
+            "population": 2614000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1932,
+            "population": 2646000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1933,
+            "population": 2673000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1934,
+            "population": 2695000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1935,
+            "population": 2717000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1936,
+            "population": 2734000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1937,
+            "population": 2746000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1938,
+            "population": 2753000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1939,
+            "population": 2771000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1940,
+            "population": 2790000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1941,
+            "population": 2718000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1942,
+            "population": 2662000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1943,
+            "population": 2577000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1944,
+            "population": 2526000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1945,
+            "population": 2537000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1946,
+            "population": 2734000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1947,
+            "population": 2796000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1948,
+            "population": 2868000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1949,
+            "population": 2935000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1950,
+            "population": 2997000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1951,
+            "population": 3010000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1952,
+            "population": 3030000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1953,
+            "population": 3050000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1954,
+            "population": 3113000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1955,
+            "population": 3172000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1956,
+            "population": 3240000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1957,
+            "population": 3274000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1958,
+            "population": 3313000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1959,
+            "population": 3366000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1960,
+            "population": 3425000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1961,
+            "population": 3470000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1962,
+            "population": 3513000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1963,
+            "population": 3531000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1964,
+            "population": 3558000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1965,
+            "population": 3592000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1966,
+            "population": 3617000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1967,
+            "population": 3659000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1968,
+            "population": 3703000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1969,
+            "population": 3758000
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1970,
+            "population": 3806103
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1971,
+            "population": 3853486
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1972,
+            "population": 3869747
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1973,
+            "population": 3889332
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1974,
+            "population": 3903925
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1975,
+            "population": 3932515
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1976,
+            "population": 3964680
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1977,
+            "population": 3989364
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1978,
+            "population": 4015341
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1979,
+            "population": 4050316
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1980,
+            "population": 4085017
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1981,
+            "population": 4111728
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1982,
+            "population": 4131450
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1983,
+            "population": 4141456
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1984,
+            "population": 4157706
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1985,
+            "population": 4184302
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1986,
+            "population": 4205212
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1987,
+            "population": 4235136
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1988,
+            "population": 4296166
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1989,
+            "population": 4338057
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1990,
+            "population": 4387283
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1991,
+            "population": 4427429
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1992,
+            "population": 4471503
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1993,
+            "population": 4521709
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1994,
+            "population": 4566028
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1995,
+            "population": 4605445
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1996,
+            "population": 4647723
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1997,
+            "population": 4687726
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1998,
+            "population": 4726411
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 1999,
+            "population": 4775508
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2000,
+            "population": 4933692
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2001,
+            "population": 4982796
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2002,
+            "population": 5018935
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2003,
+            "population": 5053572
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2004,
+            "population": 5087713
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2005,
+            "population": 5119598
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2006,
+            "population": 5163555
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2007,
+            "population": 5207203
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2008,
+            "population": 5247018
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2009,
+            "population": 5281203
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2010,
+            "population": 5310934
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2011,
+            "population": 5346620
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2012,
+            "population": 5377500
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2013,
+            "population": 5414722
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2014,
+            "population": 5452665
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2015,
+            "population": 5484002
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2016,
+            "population": 5525360
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2017,
+            "population": 5569283
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2018,
+            "population": 5608762
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2019,
+            "population": 5640053
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2020,
+            "population": 5710735
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2021,
+            "population": 5718660
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2022,
+            "population": 5721621
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2023,
+            "population": 5753048
+        },
+        {
+            "state": "Minnesota",
+            "abbreviation": "MN",
+            "year": 2024,
+            "population": 5793151
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1900,
+            "population": 321000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1901,
+            "population": 346000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1902,
+            "population": 371000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1903,
+            "population": 396000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1904,
+            "population": 421000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1905,
+            "population": 446000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1906,
+            "population": 474000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1907,
+            "population": 501000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1908,
+            "population": 528000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1909,
+            "population": 555000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1910,
+            "population": 580000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1911,
+            "population": 584000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1912,
+            "population": 603000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1913,
+            "population": 609000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1914,
+            "population": 620000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1915,
+            "population": 641000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1916,
+            "population": 652000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1917,
+            "population": 661000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1918,
+            "population": 636000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1919,
+            "population": 648000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1920,
+            "population": 646000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1921,
+            "population": 646000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1922,
+            "population": 647000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1923,
+            "population": 648000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1924,
+            "population": 642000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1925,
+            "population": 643000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1926,
+            "population": 651000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1927,
+            "population": 657000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1928,
+            "population": 665000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1929,
+            "population": 674000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1930,
+            "population": 682000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1931,
+            "population": 680000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1932,
+            "population": 676000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1933,
+            "population": 674000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1934,
+            "population": 672000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1935,
+            "population": 670000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1936,
+            "population": 664000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1937,
+            "population": 655000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1938,
+            "population": 647000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1939,
+            "population": 644000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1940,
+            "population": 640000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1941,
+            "population": 615000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1942,
+            "population": 583000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1943,
+            "population": 546000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1944,
+            "population": 534000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1945,
+            "population": 546000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1946,
+            "population": 570000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1947,
+            "population": 578000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1948,
+            "population": 580000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1949,
+            "population": 597000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1950,
+            "population": 619000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1951,
+            "population": 604000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1952,
+            "population": 608000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1953,
+            "population": 609000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1954,
+            "population": 611000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1955,
+            "population": 615000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1956,
+            "population": 613000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1957,
+            "population": 612000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1958,
+            "population": 606000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1959,
+            "population": 618000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1960,
+            "population": 634000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1961,
+            "population": 641000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1962,
+            "population": 637000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1963,
+            "population": 644000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1964,
+            "population": 649000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1965,
+            "population": 649000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1966,
+            "population": 647000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1967,
+            "population": 626000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1968,
+            "population": 621000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1969,
+            "population": 621000
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1970,
+            "population": 617792
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1971,
+            "population": 626760
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1972,
+            "population": 631119
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1973,
+            "population": 632675
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1974,
+            "population": 634559
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1975,
+            "population": 638886
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1976,
+            "population": 645797
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1977,
+            "population": 649769
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1978,
+            "population": 651301
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1979,
+            "population": 652896
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1980,
+            "population": 654380
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1981,
+            "population": 659505
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1982,
+            "population": 668972
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1983,
+            "population": 676688
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1984,
+            "population": 680497
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1985,
+            "population": 676980
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1986,
+            "population": 669512
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1987,
+            "population": 661136
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1988,
+            "population": 655331
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1989,
+            "population": 646351
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1990,
+            "population": 637364
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1991,
+            "population": 634199
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1992,
+            "population": 635427
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1993,
+            "population": 637229
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1994,
+            "population": 639762
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1995,
+            "population": 641548
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1996,
+            "population": 642858
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1997,
+            "population": 640945
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1998,
+            "population": 637808
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 1999,
+            "population": 633666
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2000,
+            "population": 642023
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2001,
+            "population": 639062
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2002,
+            "population": 638168
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2003,
+            "population": 638817
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2004,
+            "population": 644705
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2005,
+            "population": 646089
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2006,
+            "population": 649422
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2007,
+            "population": 652822
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2008,
+            "population": 657569
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2009,
+            "population": 664968
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2010,
+            "population": 674752
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2011,
+            "population": 685526
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2012,
+            "population": 702227
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2013,
+            "population": 723149
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2014,
+            "population": 738736
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2015,
+            "population": 755537
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2016,
+            "population": 756114
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2017,
+            "population": 756755
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2018,
+            "population": 760062
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2019,
+            "population": 763724
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2020,
+            "population": 779563
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2021,
+            "population": 777966
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2022,
+            "population": 781057
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2023,
+            "population": 789047
+        },
+        {
+            "state": "North Dakota",
+            "abbreviation": "ND",
+            "year": 2024,
+            "population": 796568
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1900,
+            "population": 3055000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1901,
+            "population": 3132000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1902,
+            "population": 3210000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1903,
+            "population": 3291000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1904,
+            "population": 3374000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1905,
+            "population": 3459000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1906,
+            "population": 3546000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1907,
+            "population": 3636000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1908,
+            "population": 3727000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1909,
+            "population": 3821000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1910,
+            "population": 3922000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1911,
+            "population": 4016000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1912,
+            "population": 4107000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1913,
+            "population": 4207000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1914,
+            "population": 4300000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1915,
+            "population": 4368000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1916,
+            "population": 4444000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1917,
+            "population": 4563000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1918,
+            "population": 4666000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1919,
+            "population": 4631000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1920,
+            "population": 4723000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1921,
+            "population": 4853000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1922,
+            "population": 4955000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1923,
+            "population": 5077000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1924,
+            "population": 5210000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1925,
+            "population": 5332000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1926,
+            "population": 5453000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1927,
+            "population": 5577000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1928,
+            "population": 5675000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1929,
+            "population": 5762000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1930,
+            "population": 5844000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1931,
+            "population": 5907000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1932,
+            "population": 5961000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1933,
+            "population": 6014000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1934,
+            "population": 6053000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1935,
+            "population": 6123000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1936,
+            "population": 6192000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1937,
+            "population": 6250000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1938,
+            "population": 6301000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1939,
+            "population": 6360000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1940,
+            "population": 6425000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1941,
+            "population": 6585000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1942,
+            "population": 6711000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1943,
+            "population": 7012000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1944,
+            "population": 6876000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1945,
+            "population": 6826000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1946,
+            "population": 7197000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1947,
+            "population": 7388000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1948,
+            "population": 7626000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1949,
+            "population": 7623000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1950,
+            "population": 7776000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1951,
+            "population": 8111000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1952,
+            "population": 8314000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1953,
+            "population": 8336000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1954,
+            "population": 8382000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1955,
+            "population": 8660000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1956,
+            "population": 8830000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1957,
+            "population": 9070000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1958,
+            "population": 9252000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1959,
+            "population": 9405000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1960,
+            "population": 9624000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1961,
+            "population": 9820000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1962,
+            "population": 10053000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1963,
+            "population": 10159000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1964,
+            "population": 10270000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1965,
+            "population": 10378000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1966,
+            "population": 10492000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1967,
+            "population": 10599000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1968,
+            "population": 10819000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1969,
+            "population": 11045000
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1970,
+            "population": 11198655
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1971,
+            "population": 11509848
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1972,
+            "population": 11759148
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1973,
+            "population": 12019543
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1974,
+            "population": 12268629
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1975,
+            "population": 12568843
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1976,
+            "population": 12904089
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1977,
+            "population": 13193050
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1978,
+            "population": 13500429
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1979,
+            "population": 13888371
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1980,
+            "population": 14338208
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1981,
+            "population": 14746318
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1982,
+            "population": 15331415
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1983,
+            "population": 15751676
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1984,
+            "population": 16007086
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1985,
+            "population": 16272734
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1986,
+            "population": 16561113
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1987,
+            "population": 16621791
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1988,
+            "population": 16667022
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1989,
+            "population": 16806735
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1990,
+            "population": 17044714
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1991,
+            "population": 17339904
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1992,
+            "population": 17650479
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1993,
+            "population": 17996764
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1994,
+            "population": 18338319
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1995,
+            "population": 18679706
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1996,
+            "population": 19006240
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1997,
+            "population": 19355427
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1998,
+            "population": 19712389
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 1999,
+            "population": 20044141
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2000,
+            "population": 20944499
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2001,
+            "population": 21319622
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2002,
+            "population": 21690325
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2003,
+            "population": 22030931
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2004,
+            "population": 22394023
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2005,
+            "population": 22778123
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2006,
+            "population": 23359580
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2007,
+            "population": 23831983
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2008,
+            "population": 24309039
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2009,
+            "population": 24801761
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2010,
+            "population": 25241897
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2011,
+            "population": 25645504
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2012,
+            "population": 26084120
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2013,
+            "population": 26479646
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2014,
+            "population": 26963092
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2015,
+            "population": 27468531
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2016,
+            "population": 27914064
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2017,
+            "population": 28291024
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2018,
+            "population": 28624564
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2019,
+            "population": 28986794
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2020,
+            "population": 29239570
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2021,
+            "population": 29570351
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2022,
+            "population": 30113488
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2023,
+            "population": 30727890
+        },
+        {
+            "state": "Texas",
+            "abbreviation": "TX",
+            "year": 2024,
+            "population": 31290831
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1900,
+            "population": 959000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1901,
+            "population": 972000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1902,
+            "population": 1000000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1903,
+            "population": 1037000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1904,
+            "population": 1064000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1905,
+            "population": 1094000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1906,
+            "population": 1122000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1907,
+            "population": 1149000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1908,
+            "population": 1174000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1909,
+            "population": 1203000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1910,
+            "population": 1231000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1911,
+            "population": 1266000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1912,
+            "population": 1291000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1913,
+            "population": 1317000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1914,
+            "population": 1362000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1915,
+            "population": 1387000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1916,
+            "population": 1414000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1917,
+            "population": 1439000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1918,
+            "population": 1438000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1919,
+            "population": 1464000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1920,
+            "population": 1470000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1921,
+            "population": 1485000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1922,
+            "population": 1498000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1923,
+            "population": 1526000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1924,
+            "population": 1577000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1925,
+            "population": 1593000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1926,
+            "population": 1623000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1927,
+            "population": 1671000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1928,
+            "population": 1696000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1929,
+            "population": 1717000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1930,
+            "population": 1733000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1931,
+            "population": 1740000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1932,
+            "population": 1747000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1933,
+            "population": 1752000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1934,
+            "population": 1771000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1935,
+            "population": 1794000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1936,
+            "population": 1808000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1937,
+            "population": 1813000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1938,
+            "population": 1828000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1939,
+            "population": 1868000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1940,
+            "population": 1907000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1941,
+            "population": 1885000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1942,
+            "population": 1831000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1943,
+            "population": 1741000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1944,
+            "population": 1706000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1945,
+            "population": 1708000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1946,
+            "population": 1826000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1947,
+            "population": 1883000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1948,
+            "population": 1899000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1949,
+            "population": 1930000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1950,
+            "population": 2006000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1951,
+            "population": 1984000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1952,
+            "population": 1957000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1953,
+            "population": 1929000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1954,
+            "population": 1905000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1955,
+            "population": 1880000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1956,
+            "population": 1857000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1957,
+            "population": 1843000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1958,
+            "population": 1845000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1959,
+            "population": 1855000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1960,
+            "population": 1853000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1961,
+            "population": 1828000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1962,
+            "population": 1809000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1963,
+            "population": 1796000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1964,
+            "population": 1797000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1965,
+            "population": 1786000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1966,
+            "population": 1775000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1967,
+            "population": 1769000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1968,
+            "population": 1763000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1969,
+            "population": 1746000
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1970,
+            "population": 1744237
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1971,
+            "population": 1770657
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1972,
+            "population": 1797648
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1973,
+            "population": 1806360
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1974,
+            "population": 1815447
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1975,
+            "population": 1842250
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1976,
+            "population": 1879503
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1977,
+            "population": 1908088
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1978,
+            "population": 1923395
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1979,
+            "population": 1942146
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1980,
+            "population": 1951349
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1981,
+            "population": 1954124
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1982,
+            "population": 1949604
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1983,
+            "population": 1945061
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1984,
+            "population": 1927697
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1985,
+            "population": 1906831
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1986,
+            "population": 1882350
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1987,
+            "population": 1857585
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1988,
+            "population": 1830215
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1989,
+            "population": 1806568
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1990,
+            "population": 1792481
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1991,
+            "population": 1798212
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1992,
+            "population": 1805462
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1993,
+            "population": 1816179
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1994,
+            "population": 1818490
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1995,
+            "population": 1820560
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1996,
+            "population": 1818983
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1997,
+            "population": 1815588
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1998,
+            "population": 1811688
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 1999,
+            "population": 1806928
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2000,
+            "population": 1807021
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2001,
+            "population": 1801481
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2002,
+            "population": 1805414
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2003,
+            "population": 1812295
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2004,
+            "population": 1816438
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2005,
+            "population": 1820492
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2006,
+            "population": 1827912
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2007,
+            "population": 1834052
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2008,
+            "population": 1840310
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2009,
+            "population": 1847775
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2010,
+            "population": 1854265
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2011,
+            "population": 1856606
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2012,
+            "population": 1857446
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2013,
+            "population": 1854768
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2014,
+            "population": 1850569
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2015,
+            "population": 1843332
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2016,
+            "population": 1832435
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2017,
+            "population": 1818683
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2018,
+            "population": 1805953
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2019,
+            "population": 1795263
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2020,
+            "population": 1791646
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2021,
+            "population": 1785618
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2022,
+            "population": 1774122
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2023,
+            "population": 1770495
+        },
+        {
+            "state": "West Virginia",
+            "abbreviation": "WV",
+            "year": 2024,
+            "population": 1769979
+        }
+    ]
+}

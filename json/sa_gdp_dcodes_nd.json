@@ -1,0 +1,554 @@
+[
+    {
+        "index": 0,
+        "LineCode": "1",
+        "Description": "All industry total ",
+        "indent": 0
+    },
+    {
+        "index": 1,
+        "LineCode": "2",
+        "Description": " Private industries ",
+        "indent": 1
+    },
+    {
+        "index": 2,
+        "LineCode": "3",
+        "Description": "  Agriculture, forestry, fishing and hunting ",
+        "indent": 2
+    },
+    {
+        "index": 3,
+        "LineCode": "4",
+        "Description": "   Farms ",
+        "indent": 3
+    },
+    {
+        "index": 4,
+        "LineCode": "5",
+        "Description": "   Forestry, fishing, and related activities ",
+        "indent": 3
+    },
+    {
+        "index": 5,
+        "LineCode": "6",
+        "Description": "  Mining, quarrying, and oil and gas extraction ",
+        "indent": 2
+    },
+    {
+        "index": 6,
+        "LineCode": "7",
+        "Description": "   Oil and gas extraction ",
+        "indent": 3
+    },
+    {
+        "index": 7,
+        "LineCode": "8",
+        "Description": "   Mining (except oil and gas) ",
+        "indent": 3
+    },
+    {
+        "index": 8,
+        "LineCode": "9",
+        "Description": "   Support activities for mining ",
+        "indent": 3
+    },
+    {
+        "index": 9,
+        "LineCode": "10",
+        "Description": "  Utilities ",
+        "indent": 2
+    },
+    {
+        "index": 10,
+        "LineCode": "11",
+        "Description": "  Construction ",
+        "indent": 2
+    },
+    {
+        "index": 11,
+        "LineCode": "12",
+        "Description": "  Manufacturing ",
+        "indent": 2
+    },
+    {
+        "index": 12,
+        "LineCode": "13",
+        "Description": "   Durable goods manufacturing ",
+        "indent": 3
+    },
+    {
+        "index": 13,
+        "LineCode": "14",
+        "Description": "    Wood product manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 14,
+        "LineCode": "15",
+        "Description": "    Nonmetallic mineral product manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 15,
+        "LineCode": "16",
+        "Description": "    Primary metal manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 16,
+        "LineCode": "17",
+        "Description": "    Fabricated metal product manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 17,
+        "LineCode": "18",
+        "Description": "    Machinery manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 18,
+        "LineCode": "19",
+        "Description": "    Computer and electronic product manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 19,
+        "LineCode": "20",
+        "Description": "    Electrical equipment, appliance, and component manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 20,
+        "LineCode": "21",
+        "Description": "    Motor vehicles, bodies and trailers, and parts manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 21,
+        "LineCode": "22",
+        "Description": "    Other transportation equipment manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 22,
+        "LineCode": "23",
+        "Description": "    Furniture and related product manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 23,
+        "LineCode": "24",
+        "Description": "    Miscellaneous manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 24,
+        "LineCode": "25",
+        "Description": "   Nondurable goods manufacturing ",
+        "indent": 3
+    },
+    {
+        "index": 25,
+        "LineCode": "26",
+        "Description": "    Food and beverage and tobacco product manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 26,
+        "LineCode": "27",
+        "Description": "    Textile mills and textile product mills ",
+        "indent": 4
+    },
+    {
+        "index": 27,
+        "LineCode": "28",
+        "Description": "    Apparel, leather, and allied product manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 28,
+        "LineCode": "29",
+        "Description": "    Paper manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 29,
+        "LineCode": "30",
+        "Description": "    Printing and related support activities ",
+        "indent": 4
+    },
+    {
+        "index": 30,
+        "LineCode": "31",
+        "Description": "    Petroleum and coal products manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 31,
+        "LineCode": "32",
+        "Description": "    Chemical manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 32,
+        "LineCode": "33",
+        "Description": "    Plastics and rubber products manufacturing ",
+        "indent": 4
+    },
+    {
+        "index": 33,
+        "LineCode": "34",
+        "Description": "  Wholesale trade ",
+        "indent": 2
+    },
+    {
+        "index": 34,
+        "LineCode": "35",
+        "Description": "  Retail trade ",
+        "indent": 2
+    },
+    {
+        "index": 35,
+        "LineCode": "36",
+        "Description": "  Transportation and warehousing ",
+        "indent": 2
+    },
+    {
+        "index": 36,
+        "LineCode": "37",
+        "Description": "   Air transportation ",
+        "indent": 3
+    },
+    {
+        "index": 37,
+        "LineCode": "38",
+        "Description": "   Rail transportation ",
+        "indent": 3
+    },
+    {
+        "index": 38,
+        "LineCode": "39",
+        "Description": "   Water transportation ",
+        "indent": 3
+    },
+    {
+        "index": 39,
+        "LineCode": "40",
+        "Description": "   Truck transportation ",
+        "indent": 3
+    },
+    {
+        "index": 40,
+        "LineCode": "41",
+        "Description": "   Transit and ground passenger transportation ",
+        "indent": 3
+    },
+    {
+        "index": 41,
+        "LineCode": "42",
+        "Description": "   Pipeline transportation ",
+        "indent": 3
+    },
+    {
+        "index": 42,
+        "LineCode": "43",
+        "Description": "   Other transportation and support activities ",
+        "indent": 3
+    },
+    {
+        "index": 43,
+        "LineCode": "44",
+        "Description": "   Warehousing and storage ",
+        "indent": 3
+    },
+    {
+        "index": 44,
+        "LineCode": "45",
+        "Description": "  Information ",
+        "indent": 2
+    },
+    {
+        "index": 45,
+        "LineCode": "46",
+        "Description": "   Publishing industries (except Internet) ",
+        "indent": 3
+    },
+    {
+        "index": 46,
+        "LineCode": "47",
+        "Description": "   Motion picture and sound recording industries ",
+        "indent": 3
+    },
+    {
+        "index": 47,
+        "LineCode": "48",
+        "Description": "   Broadcasting (except Internet) and telecommunications ",
+        "indent": 3
+    },
+    {
+        "index": 48,
+        "LineCode": "49",
+        "Description": "   Data processing, hosting, and other information services ",
+        "indent": 3
+    },
+    {
+        "index": 49,
+        "LineCode": "50",
+        "Description": "  Finance, insurance, real estate, rental, and leasing ",
+        "indent": 2
+    },
+    {
+        "index": 50,
+        "LineCode": "51",
+        "Description": "   Finance and insurance ",
+        "indent": 3
+    },
+    {
+        "index": 51,
+        "LineCode": "52",
+        "Description": "    Monetary Authorities- central bank, credit intermediation, and related services ",
+        "indent": 4
+    },
+    {
+        "index": 52,
+        "LineCode": "53",
+        "Description": "    Securities, commodity contracts, and other financial investments and related activities ",
+        "indent": 4
+    },
+    {
+        "index": 53,
+        "LineCode": "54",
+        "Description": "    Insurance carriers and related activities ",
+        "indent": 4
+    },
+    {
+        "index": 54,
+        "LineCode": "55",
+        "Description": "    Funds, trusts, and other financial vehicles ",
+        "indent": 4
+    },
+    {
+        "index": 55,
+        "LineCode": "56",
+        "Description": "   Real estate and rental and leasing ",
+        "indent": 3
+    },
+    {
+        "index": 56,
+        "LineCode": "57",
+        "Description": "    Real estate ",
+        "indent": 4
+    },
+    {
+        "index": 57,
+        "LineCode": "58",
+        "Description": "    Rental and leasing services and lessors of nonfinancial intangible assets ",
+        "indent": 4
+    },
+    {
+        "index": 58,
+        "LineCode": "59",
+        "Description": "  Professional and business services ",
+        "indent": 2
+    },
+    {
+        "index": 59,
+        "LineCode": "60",
+        "Description": "   Professional, scientific, and technical services ",
+        "indent": 3
+    },
+    {
+        "index": 60,
+        "LineCode": "61",
+        "Description": "    Legal services ",
+        "indent": 4
+    },
+    {
+        "index": 61,
+        "LineCode": "62",
+        "Description": "    Computer systems design and related services ",
+        "indent": 4
+    },
+    {
+        "index": 62,
+        "LineCode": "63",
+        "Description": "    Miscellaneous professional, scientific, and technical services ",
+        "indent": 4
+    },
+    {
+        "index": 63,
+        "LineCode": "64",
+        "Description": "   Management of companies and enterprises ",
+        "indent": 3
+    },
+    {
+        "index": 64,
+        "LineCode": "65",
+        "Description": "   Administrative and support and waste management and remediation services ",
+        "indent": 3
+    },
+    {
+        "index": 65,
+        "LineCode": "66",
+        "Description": "    Administrative and support services ",
+        "indent": 4
+    },
+    {
+        "index": 66,
+        "LineCode": "67",
+        "Description": "    Waste management and remediation services ",
+        "indent": 4
+    },
+    {
+        "index": 67,
+        "LineCode": "68",
+        "Description": "  Educational services, health care, and social assistance ",
+        "indent": 2
+    },
+    {
+        "index": 68,
+        "LineCode": "69",
+        "Description": "   Educational services ",
+        "indent": 3
+    },
+    {
+        "index": 69,
+        "LineCode": "70",
+        "Description": "   Health care and social assistance ",
+        "indent": 3
+    },
+    {
+        "index": 70,
+        "LineCode": "71",
+        "Description": "    Ambulatory health care services ",
+        "indent": 4
+    },
+    {
+        "index": 71,
+        "LineCode": "72",
+        "Description": "    Hospitals ",
+        "indent": 4
+    },
+    {
+        "index": 72,
+        "LineCode": "73",
+        "Description": "    Nursing and residential care facilities ",
+        "indent": 4
+    },
+    {
+        "index": 73,
+        "LineCode": "74",
+        "Description": "    Social assistance ",
+        "indent": 4
+    },
+    {
+        "index": 74,
+        "LineCode": "75",
+        "Description": "  Arts, entertainment, recreation, accommodation, and food services ",
+        "indent": 2
+    },
+    {
+        "index": 75,
+        "LineCode": "76",
+        "Description": "   Arts, entertainment, and recreation ",
+        "indent": 3
+    },
+    {
+        "index": 76,
+        "LineCode": "77",
+        "Description": "    Performing arts, spectator sports, museums, and related activities ",
+        "indent": 4
+    },
+    {
+        "index": 77,
+        "LineCode": "78",
+        "Description": "    Amusement, gambling, and recreation industries ",
+        "indent": 4
+    },
+    {
+        "index": 78,
+        "LineCode": "79",
+        "Description": "   Accommodation and food services ",
+        "indent": 3
+    },
+    {
+        "index": 79,
+        "LineCode": "80",
+        "Description": "    Accommodation ",
+        "indent": 4
+    },
+    {
+        "index": 80,
+        "LineCode": "81",
+        "Description": "    Food services and drinking places ",
+        "indent": 4
+    },
+    {
+        "index": 81,
+        "LineCode": "82",
+        "Description": "  Other services (except government and government enterprises) ",
+        "indent": 2
+    },
+    {
+        "index": 82,
+        "LineCode": "83",
+        "Description": " Government and government enterprises ",
+        "indent": 1
+    },
+    {
+        "index": 83,
+        "LineCode": "84",
+        "Description": "  Federal civilian ",
+        "indent": 2
+    },
+    {
+        "index": 84,
+        "LineCode": "85",
+        "Description": "  Military ",
+        "indent": 2
+    },
+    {
+        "index": 85,
+        "LineCode": "86",
+        "Description": "  State and local ",
+        "indent": 2
+    },
+    {
+        "index": 86,
+        "LineCode": "87",
+        "Description": "Natural resources and mining ",
+        "indent": 0
+    },
+    {
+        "index": 87,
+        "LineCode": "88",
+        "Description": "Trade ",
+        "indent": 0
+    },
+    {
+        "index": 88,
+        "LineCode": "89",
+        "Description": "Transportation and utilities ",
+        "indent": 0
+    },
+    {
+        "index": 89,
+        "LineCode": "90",
+        "Description": "Manufacturing and information ",
+        "indent": 0
+    },
+    {
+        "index": 90,
+        "LineCode": "91",
+        "Description": "Private goods-producing industries 2/",
+        "indent": 0
+    },
+    {
+        "index": 91,
+        "LineCode": "92",
+        "Description": "Private services-providing industries 3/",
+        "indent": 0
+    }
+]

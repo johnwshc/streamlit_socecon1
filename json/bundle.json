@@ -1,0 +1,903 @@
+[
+    {
+        "LineCode": 11,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/construction.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Construction",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Construction": 30.08
+            },
+            {
+                "Year": 2024,
+                "Construction": 29.77
+            },
+            {
+                "Year": 2023,
+                "Construction": 27.98
+            },
+            {
+                "Year": 2022,
+                "Construction": 26.24
+            },
+            {
+                "Year": 2021,
+                "Construction": 25.47
+            },
+            {
+                "Year": 2020,
+                "Construction": 26.08
+            },
+            {
+                "Year": 2019,
+                "Construction": 28.73
+            },
+            {
+                "Year": 2018,
+                "Construction": 26.72
+            },
+            {
+                "Year": 2017,
+                "Construction": 27.4
+            },
+            {
+                "Year": 2016,
+                "Construction": 31.65
+            },
+            {
+                "Year": 2015,
+                "Construction": 34.62
+            }
+        ]
+    },
+    {
+        "LineCode": 6,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/mining.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Mining, quarrying, and oil and gas extraction",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Mining, quarrying, and oil and gas extraction": 17.74
+            },
+            {
+                "Year": 2024,
+                "Mining, quarrying, and oil and gas extraction": 18.24
+            },
+            {
+                "Year": 2023,
+                "Mining, quarrying, and oil and gas extraction": 18.15
+            },
+            {
+                "Year": 2022,
+                "Mining, quarrying, and oil and gas extraction": 16.23
+            },
+            {
+                "Year": 2021,
+                "Mining, quarrying, and oil and gas extraction": 13.82
+            },
+            {
+                "Year": 2020,
+                "Mining, quarrying, and oil and gas extraction": 15.29
+            },
+            {
+                "Year": 2019,
+                "Mining, quarrying, and oil and gas extraction": 21.37
+            },
+            {
+                "Year": 2018,
+                "Mining, quarrying, and oil and gas extraction": 20.82
+            },
+            {
+                "Year": 2017,
+                "Mining, quarrying, and oil and gas extraction": 17.96
+            },
+            {
+                "Year": 2016,
+                "Mining, quarrying, and oil and gas extraction": 15.34
+            },
+            {
+                "Year": 2015,
+                "Mining, quarrying, and oil and gas extraction": 23.29
+            }
+        ]
+    },
+    {
+        "LineCode": 12,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/manufacturing.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Manufacturing",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Manufacturing": 28.2
+            },
+            {
+                "Year": 2024,
+                "Manufacturing": 28.37
+            },
+            {
+                "Year": 2023,
+                "Manufacturing": 28.32
+            },
+            {
+                "Year": 2022,
+                "Manufacturing": 27.38
+            },
+            {
+                "Year": 2021,
+                "Manufacturing": 26.25
+            },
+            {
+                "Year": 2020,
+                "Manufacturing": 25.63
+            },
+            {
+                "Year": 2019,
+                "Manufacturing": 26.67
+            },
+            {
+                "Year": 2018,
+                "Manufacturing": 26.08
+            },
+            {
+                "Year": 2017,
+                "Manufacturing": 24.75
+            },
+            {
+                "Year": 2016,
+                "Manufacturing": 24.55
+            },
+            {
+                "Year": 2015,
+                "Manufacturing": 25.52
+            }
+        ]
+    },
+    {
+        "LineCode": 34,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/wholesale_trade.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Wholesale Trade",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Wholesale Trade": 24.49
+            },
+            {
+                "Year": 2024,
+                "Wholesale Trade": 24.65
+            },
+            {
+                "Year": 2023,
+                "Wholesale Trade": 23.92
+            },
+            {
+                "Year": 2022,
+                "Wholesale Trade": 23.08
+            },
+            {
+                "Year": 2021,
+                "Wholesale Trade": 22.68
+            },
+            {
+                "Year": 2020,
+                "Wholesale Trade": 23.11
+            },
+            {
+                "Year": 2019,
+                "Wholesale Trade": 24.3
+            },
+            {
+                "Year": 2018,
+                "Wholesale Trade": 23.96
+            },
+            {
+                "Year": 2017,
+                "Wholesale Trade": 23.91
+            },
+            {
+                "Year": 2016,
+                "Wholesale Trade": 24.38
+            },
+            {
+                "Year": 2015,
+                "Wholesale Trade": 26.6
+            }
+        ]
+    },
+    {
+        "LineCode": 35,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/retail_trade.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Retail Trade",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Retail Trade": 46.47
+            },
+            {
+                "Year": 2024,
+                "Retail Trade": 45.93
+            },
+            {
+                "Year": 2023,
+                "Retail Trade": 45.3
+            },
+            {
+                "Year": 2022,
+                "Retail Trade": 45.02
+            },
+            {
+                "Year": 2021,
+                "Retail Trade": 44.66
+            },
+            {
+                "Year": 2020,
+                "Retail Trade": 43.95
+            },
+            {
+                "Year": 2019,
+                "Retail Trade": 45.74
+            },
+            {
+                "Year": 2018,
+                "Retail Trade": 46.94
+            },
+            {
+                "Year": 2017,
+                "Retail Trade": 47.62
+            },
+            {
+                "Year": 2016,
+                "Retail Trade": 49.05
+            },
+            {
+                "Year": 2015,
+                "Retail Trade": 50.38
+            }
+        ]
+    },
+    {
+        "LineCode": 36,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/trans_ware_util.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Transportation and Warehousing",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Transportation and Warehousing": 22.64
+            },
+            {
+                "Year": 2024,
+                "Transportation and Warehousing": 23.04
+            },
+            {
+                "Year": 2023,
+                "Transportation and Warehousing": 23.03
+            },
+            {
+                "Year": 2022,
+                "Transportation and Warehousing": 22.55
+            },
+            {
+                "Year": 2021,
+                "Transportation and Warehousing": 21.87
+            },
+            {
+                "Year": 2020,
+                "Transportation and Warehousing": 22.03
+            },
+            {
+                "Year": 2019,
+                "Transportation and Warehousing": 23.78
+            },
+            {
+                "Year": 2018,
+                "Transportation and Warehousing": 23.45
+            },
+            {
+                "Year": 2017,
+                "Transportation and Warehousing": 23.1
+            },
+            {
+                "Year": 2016,
+                "Transportation and Warehousing": 23.03
+            },
+            {
+                "Year": 2015,
+                "Transportation and Warehousing": 26.68
+            }
+        ]
+    },
+    {
+        "LineCode": 45,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/information.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Information",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Information": 5.31
+            },
+            {
+                "Year": 2024,
+                "Information": 5.31
+            },
+            {
+                "Year": 2023,
+                "Information": 5.55
+            },
+            {
+                "Year": 2022,
+                "Information": 5.82
+            },
+            {
+                "Year": 2021,
+                "Information": 5.73
+            },
+            {
+                "Year": 2020,
+                "Information": 5.78
+            },
+            {
+                "Year": 2019,
+                "Information": 6.12
+            },
+            {
+                "Year": 2018,
+                "Information": 6.23
+            },
+            {
+                "Year": 2017,
+                "Information": 6.52
+            },
+            {
+                "Year": 2016,
+                "Information": 6.65
+            },
+            {
+                "Year": 2015,
+                "Information": 6.62
+            }
+        ]
+    },
+    {
+        "LineCode": 50,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/financial_activities.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Finance, insurance, real estate, rental, and leasing",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Finance, insurance, real estate, rental, and leasing": 24.95
+            },
+            {
+                "Year": 2024,
+                "Finance, insurance, real estate, rental, and leasing": 25.01
+            },
+            {
+                "Year": 2023,
+                "Finance, insurance, real estate, rental, and leasing": 25.2
+            },
+            {
+                "Year": 2022,
+                "Finance, insurance, real estate, rental, and leasing": 24.69
+            },
+            {
+                "Year": 2021,
+                "Finance, insurance, real estate, rental, and leasing": 24.6
+            },
+            {
+                "Year": 2020,
+                "Finance, insurance, real estate, rental, and leasing": 24.88
+            },
+            {
+                "Year": 2019,
+                "Finance, insurance, real estate, rental, and leasing": 25.33
+            },
+            {
+                "Year": 2018,
+                "Finance, insurance, real estate, rental, and leasing": 24.82
+            },
+            {
+                "Year": 2017,
+                "Finance, insurance, real estate, rental, and leasing": 24.4
+            },
+            {
+                "Year": 2016,
+                "Finance, insurance, real estate, rental, and leasing": 24.02
+            },
+            {
+                "Year": 2015,
+                "Finance, insurance, real estate, rental, and leasing": 24.38
+            }
+        ]
+    },
+    {
+        "LineCode": 59,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/pro_biz_serv.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Professional and business services",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Professional and business services": 34.88
+            },
+            {
+                "Year": 2024,
+                "Professional and business services": 35.02
+            },
+            {
+                "Year": 2023,
+                "Professional and business services": 34.84
+            },
+            {
+                "Year": 2022,
+                "Professional and business services": 34.57
+            },
+            {
+                "Year": 2021,
+                "Professional and business services": 32.97
+            },
+            {
+                "Year": 2020,
+                "Professional and business services": 31.48
+            },
+            {
+                "Year": 2019,
+                "Professional and business services": 32.88
+            },
+            {
+                "Year": 2018,
+                "Professional and business services": 32.69
+            },
+            {
+                "Year": 2017,
+                "Professional and business services": 32.8
+            },
+            {
+                "Year": 2016,
+                "Professional and business services": 33.05
+            },
+            {
+                "Year": 2015,
+                "Professional and business services": 35.02
+            }
+        ]
+    },
+    {
+        "LineCode": 59,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/ed_health_serv.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Educational services, health care, and social assistance",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Educational services, health care, and social assistance": 72.04
+            },
+            {
+                "Year": 2024,
+                "Educational services, health care, and social assistance": 69.78
+            },
+            {
+                "Year": 2023,
+                "Educational services, health care, and social assistance": 67.75
+            },
+            {
+                "Year": 2022,
+                "Educational services, health care, and social assistance": 67.06
+            },
+            {
+                "Year": 2021,
+                "Educational services, health care, and social assistance": 66.62
+            },
+            {
+                "Year": 2020,
+                "Educational services, health care, and social assistance": 66.25
+            },
+            {
+                "Year": 2019,
+                "Educational services, health care, and social assistance": 67.26
+            },
+            {
+                "Year": 2018,
+                "Educational services, health care, and social assistance": 66.58
+            },
+            {
+                "Year": 2017,
+                "Educational services, health care, and social assistance": 66.07
+            },
+            {
+                "Year": 2016,
+                "Educational services, health care, and social assistance": 64.78
+            },
+            {
+                "Year": 2015,
+                "Educational services, health care, and social assistance": 62.93
+            }
+        ]
+    },
+    {
+        "LineCode": 75,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/leisure_hospitality.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Arts, entertainment, recreation, accommodation, and food services",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Arts, entertainment, recreation, accommodation, and food services": 40.68
+            },
+            {
+                "Year": 2024,
+                "Arts, entertainment, recreation, accommodation, and food services": 40.77
+            },
+            {
+                "Year": 2023,
+                "Arts, entertainment, recreation, accommodation, and food services": 40.1
+            },
+            {
+                "Year": 2022,
+                "Arts, entertainment, recreation, accommodation, and food services": 39.04
+            },
+            {
+                "Year": 2021,
+                "Arts, entertainment, recreation, accommodation, and food services": 37.08
+            },
+            {
+                "Year": 2020,
+                "Arts, entertainment, recreation, accommodation, and food services": 34.32
+            },
+            {
+                "Year": 2019,
+                "Arts, entertainment, recreation, accommodation, and food services": 40.43
+            },
+            {
+                "Year": 2018,
+                "Arts, entertainment, recreation, accommodation, and food services": 40.36
+            },
+            {
+                "Year": 2017,
+                "Arts, entertainment, recreation, accommodation, and food services": 40.17
+            },
+            {
+                "Year": 2016,
+                "Arts, entertainment, recreation, accommodation, and food services": 40.0
+            },
+            {
+                "Year": 2015,
+                "Arts, entertainment, recreation, accommodation, and food services": 40.77
+            }
+        ]
+    },
+    {
+        "LineCode": 82,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/other_serv.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Other services, except public administration",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Other services, except public administration": 15.47
+            },
+            {
+                "Year": 2024,
+                "Other services, except public administration": 15.13
+            },
+            {
+                "Year": 2023,
+                "Other services, except public administration": 15.07
+            },
+            {
+                "Year": 2022,
+                "Other services, except public administration": 14.75
+            },
+            {
+                "Year": 2021,
+                "Other services, except public administration": 14.33
+            },
+            {
+                "Year": 2020,
+                "Other services, except public administration": 14.41
+            },
+            {
+                "Year": 2019,
+                "Other services, except public administration": 15.44
+            },
+            {
+                "Year": 2018,
+                "Other services, except public administration": 15.38
+            },
+            {
+                "Year": 2017,
+                "Other services, except public administration": 15.42
+            },
+            {
+                "Year": 2016,
+                "Other services, except public administration": 15.54
+            },
+            {
+                "Year": 2015,
+                "Other services, except public administration": 16.28
+            }
+        ]
+    },
+    {
+        "LineCode": 83,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/government.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Government and government enterprises",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Government and government enterprises": 86.37
+            },
+            {
+                "Year": 2024,
+                "Government and government enterprises": 84.98
+            },
+            {
+                "Year": 2023,
+                "Government and government enterprises": 83.21
+            },
+            {
+                "Year": 2022,
+                "Government and government enterprises": 81.77
+            },
+            {
+                "Year": 2021,
+                "Government and government enterprises": 81.04
+            },
+            {
+                "Year": 2020,
+                "Government and government enterprises": 79.34
+            },
+            {
+                "Year": 2019,
+                "Government and government enterprises": 82.91
+            },
+            {
+                "Year": 2018,
+                "Government and government enterprises": 82.49
+            },
+            {
+                "Year": 2017,
+                "Government and government enterprises": 82.73
+            },
+            {
+                "Year": 2016,
+                "Government and government enterprises": 83.34
+            },
+            {
+                "Year": 2015,
+                "Government and government enterprises": 81.32
+            }
+        ]
+    },
+    {
+        "LineCode": 84,
+        "Indent": 3,
+        "Path": "D:/python_apps/socecon/data/ND2/federal_government.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Federal civilian",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Federal civilian": 9.1
+            },
+            {
+                "Year": 2024,
+                "Federal civilian": 9.32
+            },
+            {
+                "Year": 2023,
+                "Federal civilian": 9.13
+            },
+            {
+                "Year": 2022,
+                "Federal civilian": 9.12
+            },
+            {
+                "Year": 2021,
+                "Federal civilian": 9.38
+            },
+            {
+                "Year": 2020,
+                "Federal civilian": 9.5
+            },
+            {
+                "Year": 2019,
+                "Federal civilian": 9.31
+            },
+            {
+                "Year": 2018,
+                "Federal civilian": 9.35
+            },
+            {
+                "Year": 2017,
+                "Federal civilian": 9.43
+            },
+            {
+                "Year": 2016,
+                "Federal civilian": 9.42
+            },
+            {
+                "Year": 2015,
+                "Federal civilian": 9.2
+            }
+        ]
+    },
+    {
+        "LineCode": 85,
+        "Indent": 3,
+        "Path": "D:/python_apps/socecon/data/ND2/state_government.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "State government enterprises",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "State government enterprises": 22.7
+            },
+            {
+                "Year": 2024,
+                "State government enterprises": 22.28
+            },
+            {
+                "Year": 2023,
+                "State government enterprises": 21.75
+            },
+            {
+                "Year": 2022,
+                "State government enterprises": 21.62
+            },
+            {
+                "Year": 2021,
+                "State government enterprises": 21.9
+            },
+            {
+                "Year": 2020,
+                "State government enterprises": 21.44
+            },
+            {
+                "Year": 2019,
+                "State government enterprises": 22.7
+            },
+            {
+                "Year": 2018,
+                "State government enterprises": 22.95
+            },
+            {
+                "Year": 2017,
+                "State government enterprises": 23.48
+            },
+            {
+                "Year": 2016,
+                "State government enterprises": 24.28
+            },
+            {
+                "Year": 2015,
+                "State government enterprises": 23.96
+            }
+        ]
+    },
+    {
+        "LineCode": 86,
+        "Indent": 3,
+        "Path": "D:/python_apps/socecon/data/ND2/local_government.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Local government enterprises",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Local government enterprises": 54.57
+            },
+            {
+                "Year": 2024,
+                "Local government enterprises": 53.38
+            },
+            {
+                "Year": 2023,
+                "Local government enterprises": 52.33
+            },
+            {
+                "Year": 2022,
+                "Local government enterprises": 51.02
+            },
+            {
+                "Year": 2021,
+                "Local government enterprises": 49.77
+            },
+            {
+                "Year": 2020,
+                "Local government enterprises": 48.4
+            },
+            {
+                "Year": 2019,
+                "Local government enterprises": 50.9
+            },
+            {
+                "Year": 2018,
+                "Local government enterprises": 50.19
+            },
+            {
+                "Year": 2017,
+                "Local government enterprises": 49.82
+            },
+            {
+                "Year": 2016,
+                "Local government enterprises": 49.65
+            },
+            {
+                "Year": 2015,
+                "Local government enterprises": 48.16
+            }
+        ]
+    },
+    {
+        "LineCode": 10,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/ND2/utilities.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Utilities",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Utilities": 3.27
+            },
+            {
+                "Year": 2024,
+                "Utilities": 3.32
+            },
+            {
+                "Year": 2023,
+                "Utilities": 3.26
+            },
+            {
+                "Year": 2022,
+                "Utilities": 3.18
+            },
+            {
+                "Year": 2021,
+                "Utilities": 3.23
+            },
+            {
+                "Year": 2020,
+                "Utilities": 3.32
+            },
+            {
+                "Year": 2019,
+                "Utilities": 3.44
+            },
+            {
+                "Year": 2018,
+                "Utilities": 3.67
+            },
+            {
+                "Year": 2017,
+                "Utilities": 3.78
+            },
+            {
+                "Year": 2016,
+                "Utilities": 3.82
+            },
+            {
+                "Year": 2015,
+                "Utilities": 3.85
+            }
+        ]
+    }
+]

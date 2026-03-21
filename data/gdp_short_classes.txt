@@ -1,0 +1,92 @@
+1	All industry total
+2	 Private industries
+3	  Agriculture, forestry, fishing
+4	   Farms
+5	   Forestry, fishing
+6	  Mining all extraction
+7	   Oil and gas
+8	   Mining
+9	   Support mining
+10	  Utilities
+11	  Construction
+12	  Manufacturing
+13	   Durable goods
+14	    Wood
+15	    Nonmetallic mineral
+16	    Primary metal
+17	    Fabricated metal
+18	    Machinery
+19	    Computer, electronic
+20	    Electrical equipment
+21	    Motor vehicles
+22	    Other trans.
+23	    Furniture
+24	    Misc
+25	   Nondurable
+26	    Food and beverage
+27	    Textile
+28	    Apparel
+29	    Paper
+30	    Printing
+31	    Petroleum/coal/mfg
+32	    Chemical
+33	    Plastics/rubber
+34	  Wholesale
+35	  Retail
+36	  Transportation/wh
+37	   Air
+38     Rail
+39	   Water
+40	   Truck
+41	   passenger trans
+42	   Pipeline trans
+43	   Other trans
+44	   Warehousing/storage
+45	  Information
+46	   Publishing (except Internet)
+47	   Motion picture
+48	   Broadcasting
+49	   Data services
+50	  Fin svcs
+51	   Finance and ins.
+52	    Monetary Authorities
+53	    Securities
+54	    Insurance
+55	    trusts
+56	   Real estate/rental
+57	    Real estate
+58	    Rental
+59	  Pro services
+60	   Sci-tech
+61	    Legal services
+62	    Computer systems design
+63	    Misc comp
+64	   Management
+65	   Administrative/waste
+66	    Administrative
+67	    Waste management
+68	  Educational/health/social
+69	   Educational (private)
+70	   Health care
+71	    Ambulatory
+72	    Hospitals
+73	    Nursing, res, care
+74	    Social assistance
+75	  Arts
+76	   Arts, entertainment, rec.
+77	    Performing
+78	    Amusement
+79	   Accommodation/food
+80	    Accommodation
+81	    Food services
+82	  Other services
+83	 Government
+84	  Federal civilian
+85	  Military
+86	  State and local
+87	Natural resources and mining
+88	Trade
+89	Transportation and utilities
+90	Manufacturing and information
+91	Private goods
+92	Private services

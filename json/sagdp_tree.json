@@ -1,0 +1,487 @@
+{
+    "data": -1,
+    "lc": 0,
+    "children": [
+        {
+            "data": 0,
+            "lc": "1",
+            "children": [
+                {
+                    "data": 1,
+                    "lc": "2",
+                    "children": [
+                        {
+                            "data": 2,
+                            "lc": "3",
+                            "children": [
+                                {
+                                    "data": 3,
+                                    "lc": "4",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "5",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "data": 2,
+                            "lc": "6",
+                            "children": [
+                                {
+                                    "data": 3,
+                                    "lc": "7",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "8",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "9",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "data": 2,
+                            "lc": "10",
+                            "children": []
+                        },
+                        {
+                            "data": 2,
+                            "lc": "11",
+                            "children": []
+                        },
+                        {
+                            "data": 2,
+                            "lc": "12",
+                            "children": [
+                                {
+                                    "data": 3,
+                                    "lc": "13",
+                                    "children": [
+                                        {
+                                            "data": 4,
+                                            "lc": "14",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "15",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "16",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "17",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "18",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "19",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "20",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "21",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "22",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "23",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "24",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "25",
+                                    "children": [
+                                        {
+                                            "data": 4,
+                                            "lc": "26",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "27",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "28",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "29",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "30",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "31",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "32",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "33",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "data": 2,
+                            "lc": "34",
+                            "children": []
+                        },
+                        {
+                            "data": 2,
+                            "lc": "35",
+                            "children": []
+                        },
+                        {
+                            "data": 2,
+                            "lc": "36",
+                            "children": [
+                                {
+                                    "data": 3,
+                                    "lc": "37",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "38",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "39",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "40",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "41",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "42",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "43",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "44",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "data": 2,
+                            "lc": "45",
+                            "children": [
+                                {
+                                    "data": 3,
+                                    "lc": "46",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "47",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "48",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "49",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "data": 2,
+                            "lc": "50",
+                            "children": [
+                                {
+                                    "data": 3,
+                                    "lc": "51",
+                                    "children": [
+                                        {
+                                            "data": 4,
+                                            "lc": "52",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "53",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "54",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "55",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "56",
+                                    "children": [
+                                        {
+                                            "data": 4,
+                                            "lc": "57",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "58",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "data": 2,
+                            "lc": "59",
+                            "children": [
+                                {
+                                    "data": 3,
+                                    "lc": "60",
+                                    "children": [
+                                        {
+                                            "data": 4,
+                                            "lc": "61",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "62",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "63",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "64",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "65",
+                                    "children": [
+                                        {
+                                            "data": 4,
+                                            "lc": "66",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "67",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "data": 2,
+                            "lc": "68",
+                            "children": [
+                                {
+                                    "data": 3,
+                                    "lc": "69",
+                                    "children": []
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "70",
+                                    "children": [
+                                        {
+                                            "data": 4,
+                                            "lc": "71",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "72",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "73",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "74",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "data": 2,
+                            "lc": "75",
+                            "children": [
+                                {
+                                    "data": 3,
+                                    "lc": "76",
+                                    "children": [
+                                        {
+                                            "data": 4,
+                                            "lc": "77",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "78",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "data": 3,
+                                    "lc": "79",
+                                    "children": [
+                                        {
+                                            "data": 4,
+                                            "lc": "80",
+                                            "children": []
+                                        },
+                                        {
+                                            "data": 4,
+                                            "lc": "81",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "data": 2,
+                            "lc": "82",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "data": 1,
+                    "lc": "83",
+                    "children": [
+                        {
+                            "data": 2,
+                            "lc": "84",
+                            "children": []
+                        },
+                        {
+                            "data": 2,
+                            "lc": "85",
+                            "children": []
+                        },
+                        {
+                            "data": 2,
+                            "lc": "86",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": 0,
+            "lc": "87",
+            "children": []
+        },
+        {
+            "data": 0,
+            "lc": "88",
+            "children": []
+        },
+        {
+            "data": 0,
+            "lc": "89",
+            "children": []
+        },
+        {
+            "data": 0,
+            "lc": "90",
+            "children": []
+        },
+        {
+            "data": 0,
+            "lc": "91",
+            "children": []
+        },
+        {
+            "data": 0,
+            "lc": "92",
+            "children": []
+        }
+    ]
+}

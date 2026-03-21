@@ -1,0 +1,1221 @@
+[
+    {
+        "LineCode": 11,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/north_dakota/cons.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Construction",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Construction": 30.08
+            },
+            {
+                "Year": 2024,
+                "Construction": 29.77
+            },
+            {
+                "Year": 2023,
+                "Construction": 27.98
+            },
+            {
+                "Year": 2022,
+                "Construction": 26.24
+            },
+            {
+                "Year": 2021,
+                "Construction": 25.47
+            },
+            {
+                "Year": 2020,
+                "Construction": 26.08
+            },
+            {
+                "Year": 2019,
+                "Construction": 28.73
+            },
+            {
+                "Year": 2018,
+                "Construction": 26.72
+            },
+            {
+                "Year": 2017,
+                "Construction": 27.4
+            },
+            {
+                "Year": 2016,
+                "Construction": 31.65
+            },
+            {
+                "Year": 2015,
+                "Construction": 34.62
+            }
+        ]
+    },
+    {
+        "LineCode": 13,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/north_dakota/durables.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Durable Goods Manufacturing",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Durable Goods Manufacturing": 18.12
+            },
+            {
+                "Year": 2024,
+                "Durable Goods Manufacturing": 18.28
+            },
+            {
+                "Year": 2023,
+                "Durable Goods Manufacturing": 18.53
+            },
+            {
+                "Year": 2022,
+                "Durable Goods Manufacturing": 17.94
+            },
+            {
+                "Year": 2021,
+                "Durable Goods Manufacturing": 17.07
+            },
+            {
+                "Year": 2020,
+                "Durable Goods Manufacturing": 16.88
+            },
+            {
+                "Year": 2019,
+                "Durable Goods Manufacturing": 18.0
+            },
+            {
+                "Year": 2018,
+                "Durable Goods Manufacturing": 17.52
+            },
+            {
+                "Year": 2017,
+                "Durable Goods Manufacturing": 16.3
+            },
+            {
+                "Year": 2016,
+                "Durable Goods Manufacturing": 16.18
+            },
+            {
+                "Year": 2015,
+                "Durable Goods Manufacturing": 17.14
+            }
+        ]
+    },
+    {
+        "LineCode": 84,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/north_dakota/feds.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Federal Civilian",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Federal Civilian": 9.1
+            },
+            {
+                "Year": 2024,
+                "Federal Civilian": 9.32
+            },
+            {
+                "Year": 2023,
+                "Federal Civilian": 9.13
+            },
+            {
+                "Year": 2022,
+                "Federal Civilian": 9.12
+            },
+            {
+                "Year": 2021,
+                "Federal Civilian": 9.38
+            },
+            {
+                "Year": 2020,
+                "Federal Civilian": 9.5
+            },
+            {
+                "Year": 2019,
+                "Federal Civilian": 9.31
+            },
+            {
+                "Year": 2018,
+                "Federal Civilian": 9.35
+            },
+            {
+                "Year": 2017,
+                "Federal Civilian": 9.43
+            },
+            {
+                "Year": 2016,
+                "Federal Civilian": 9.42
+            },
+            {
+                "Year": 2015,
+                "Federal Civilian": 9.2
+            }
+        ]
+    },
+    {
+        "LineCode": 50,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/north_dakota/financial_activities.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Financial Activities",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Financial Activities": 24.95
+            },
+            {
+                "Year": 2024,
+                "Financial Activities": 25.01
+            },
+            {
+                "Year": 2023,
+                "Financial Activities": 25.2
+            },
+            {
+                "Year": 2022,
+                "Financial Activities": 24.69
+            },
+            {
+                "Year": 2021,
+                "Financial Activities": 24.6
+            },
+            {
+                "Year": 2020,
+                "Financial Activities": 24.88
+            },
+            {
+                "Year": 2019,
+                "Financial Activities": 25.33
+            },
+            {
+                "Year": 2018,
+                "Financial Activities": 24.82
+            },
+            {
+                "Year": 2017,
+                "Financial Activities": 24.4
+            },
+            {
+                "Year": 2016,
+                "Financial Activities": 24.02
+            },
+            {
+                "Year": 2015,
+                "Financial Activities": 24.38
+            }
+        ]
+    },
+    {
+        "LineCode": 26,
+        "Indent": 4,
+        "Path": "D:/python_apps/socecon/data/north_dakota/food_mfg.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Food Manufacturing",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Food Manufacturing": 5.54
+            },
+            {
+                "Year": 2024,
+                "Food Manufacturing": 5.58
+            },
+            {
+                "Year": 2023,
+                "Food Manufacturing": 5.27
+            },
+            {
+                "Year": 2022,
+                "Food Manufacturing": 5.05
+            },
+            {
+                "Year": 2021,
+                "Food Manufacturing": 5.07
+            },
+            {
+                "Year": 2020,
+                "Food Manufacturing": 4.9
+            },
+            {
+                "Year": 2019,
+                "Food Manufacturing": 4.91
+            },
+            {
+                "Year": 2018,
+                "Food Manufacturing": 4.91
+            },
+            {
+                "Year": 2017,
+                "Food Manufacturing": 4.88
+            },
+            {
+                "Year": 2016,
+                "Food Manufacturing": 4.87
+            },
+            {
+                "Year": 2015,
+                "Food Manufacturing": 4.89
+            }
+        ]
+    },
+    {
+        "LineCode": 91,
+        "Indent": 0,
+        "Path": "D:/python_apps/socecon/data/north_dakota/goods_producing_nd.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Goods Producing",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Goods Producing": 76.11
+            },
+            {
+                "Year": 2024,
+                "Goods Producing": 76.33
+            },
+            {
+                "Year": 2023,
+                "Goods Producing": 74.47
+            },
+            {
+                "Year": 2022,
+                "Goods Producing": 69.83
+            },
+            {
+                "Year": 2021,
+                "Goods Producing": 65.48
+            },
+            {
+                "Year": 2020,
+                "Goods Producing": 66.89
+            },
+            {
+                "Year": 2019,
+                "Goods Producing": 76.78
+            },
+            {
+                "Year": 2018,
+                "Goods Producing": 73.6
+            },
+            {
+                "Year": 2017,
+                "Goods Producing": 70.07
+            },
+            {
+                "Year": 2016,
+                "Goods Producing": 71.49
+            },
+            {
+                "Year": 2015,
+                "Goods Producing": 83.41
+            }
+        ]
+    },
+    {
+        "LineCode": 83,
+        "Indent": 1,
+        "Path": "D:/python_apps/socecon/data/north_dakota/gov.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Government",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Government": 86.37
+            },
+            {
+                "Year": 2024,
+                "Government": 84.98
+            },
+            {
+                "Year": 2023,
+                "Government": 83.21
+            },
+            {
+                "Year": 2022,
+                "Government": 81.77
+            },
+            {
+                "Year": 2021,
+                "Government": 81.04
+            },
+            {
+                "Year": 2020,
+                "Government": 79.34
+            },
+            {
+                "Year": 2019,
+                "Government": 82.91
+            },
+            {
+                "Year": 2018,
+                "Government": 82.49
+            },
+            {
+                "Year": 2017,
+                "Government": 82.73
+            },
+            {
+                "Year": 2016,
+                "Government": 83.34
+            },
+            {
+                "Year": 2015,
+                "Government": 81.32
+            }
+        ]
+    },
+    {
+        "LineCode": 70,
+        "Indent": 3,
+        "Path": "D:/python_apps/socecon/data/north_dakota/health_social.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Health Care and Social Assistance",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Health Care and Social Assistance": 66.23
+            },
+            {
+                "Year": 2024,
+                "Health Care and Social Assistance": 64.25
+            },
+            {
+                "Year": 2023,
+                "Health Care and Social Assistance": 62.37
+            },
+            {
+                "Year": 2022,
+                "Health Care and Social Assistance": 62.0
+            },
+            {
+                "Year": 2021,
+                "Health Care and Social Assistance": 61.94
+            },
+            {
+                "Year": 2020,
+                "Health Care and Social Assistance": 61.91
+            },
+            {
+                "Year": 2019,
+                "Health Care and Social Assistance": 62.98
+            },
+            {
+                "Year": 2018,
+                "Health Care and Social Assistance": 62.56
+            },
+            {
+                "Year": 2017,
+                "Health Care and Social Assistance": 62.15
+            },
+            {
+                "Year": 2016,
+                "Health Care and Social Assistance": 61.1
+            },
+            {
+                "Year": 2015,
+                "Health Care and Social Assistance": 59.47
+            }
+        ]
+    },
+    {
+        "LineCode": 72,
+        "Indent": 4,
+        "Path": "D:/python_apps/socecon/data/north_dakota/hospitals.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Hospitals",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Hospitals": 23.16
+            },
+            {
+                "Year": 2024,
+                "Hospitals": 22.71
+            },
+            {
+                "Year": 2023,
+                "Hospitals": 22.34
+            },
+            {
+                "Year": 2022,
+                "Hospitals": 23.23
+            },
+            {
+                "Year": 2021,
+                "Hospitals": 23.21
+            },
+            {
+                "Year": 2020,
+                "Hospitals": 23.28
+            },
+            {
+                "Year": 2019,
+                "Hospitals": 23.34
+            },
+            {
+                "Year": 2018,
+                "Hospitals": 23.45
+            },
+            {
+                "Year": 2017,
+                "Hospitals": 23.59
+            },
+            {
+                "Year": 2016,
+                "Hospitals": 23.4
+            },
+            {
+                "Year": 2015,
+                "Hospitals": 22.88
+            }
+        ]
+    },
+    {
+        "LineCode": 40,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/north_dakota/info.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Information",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Information": 5.31
+            },
+            {
+                "Year": 2024,
+                "Information": 5.31
+            },
+            {
+                "Year": 2023,
+                "Information": 5.55
+            },
+            {
+                "Year": 2022,
+                "Information": 5.82
+            },
+            {
+                "Year": 2021,
+                "Information": 5.73
+            },
+            {
+                "Year": 2020,
+                "Information": 5.78
+            },
+            {
+                "Year": 2019,
+                "Information": 6.12
+            },
+            {
+                "Year": 2018,
+                "Information": 6.23
+            },
+            {
+                "Year": 2017,
+                "Information": 6.52
+            },
+            {
+                "Year": 2016,
+                "Information": 6.65
+            },
+            {
+                "Year": 2015,
+                "Information": 6.62
+            }
+        ]
+    },
+    {
+        "LineCode": 51,
+        "Indent": 3,
+        "Path": "D:/python_apps/socecon/data/north_dakota/finance_insurance.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Finance and Insurance",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Finance and Insurance": 19.52
+            },
+            {
+                "Year": 2024,
+                "Finance and Insurance": 19.61
+            },
+            {
+                "Year": 2023,
+                "Finance and Insurance": 19.87
+            },
+            {
+                "Year": 2022,
+                "Finance and Insurance": 19.56
+            },
+            {
+                "Year": 2021,
+                "Finance and Insurance": 19.69
+            },
+            {
+                "Year": 2020,
+                "Finance and Insurance": 19.91
+            },
+            {
+                "Year": 2019,
+                "Finance and Insurance": 19.88
+            },
+            {
+                "Year": 2018,
+                "Finance and Insurance": 19.45
+            },
+            {
+                "Year": 2017,
+                "Finance and Insurance": 19.17
+            },
+            {
+                "Year": 2016,
+                "Finance and Insurance": 18.87
+            },
+            {
+                "Year": 2015,
+                "Finance and Insurance": 18.71
+            }
+        ]
+    },
+    {
+        "LineCode": 75,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/north_dakota/leisure_hospitality.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Leisure and Hospitality",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Leisure and Hospitality": 40.68
+            },
+            {
+                "Year": 2024,
+                "Leisure and Hospitality": 40.77
+            },
+            {
+                "Year": 2023,
+                "Leisure and Hospitality": 40.1
+            },
+            {
+                "Year": 2022,
+                "Leisure and Hospitality": 39.04
+            },
+            {
+                "Year": 2021,
+                "Leisure and Hospitality": 37.08
+            },
+            {
+                "Year": 2020,
+                "Leisure and Hospitality": 34.32
+            },
+            {
+                "Year": 2019,
+                "Leisure and Hospitality": 40.43
+            },
+            {
+                "Year": 2018,
+                "Leisure and Hospitality": 40.36
+            },
+            {
+                "Year": 2017,
+                "Leisure and Hospitality": 40.17
+            },
+            {
+                "Year": 2016,
+                "Leisure and Hospitality": 40.0
+            },
+            {
+                "Year": 2015,
+                "Leisure and Hospitality": 40.77
+            }
+        ]
+    },
+    {
+        "LineCode": 18,
+        "Indent": 4,
+        "Path": "D:/python_apps/socecon/data/north_dakota/machinery.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Machinery Manufacturing",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Machinery Manufacturing": 6.14
+            },
+            {
+                "Year": 2024,
+                "Machinery Manufacturing": 6.33
+            },
+            {
+                "Year": 2023,
+                "Machinery Manufacturing": 6.53
+            },
+            {
+                "Year": 2022,
+                "Machinery Manufacturing": 6.28
+            },
+            {
+                "Year": 2021,
+                "Machinery Manufacturing": 6.18
+            },
+            {
+                "Year": 2020,
+                "Machinery Manufacturing": 6.17
+            },
+            {
+                "Year": 2019,
+                "Machinery Manufacturing": 6.23
+            },
+            {
+                "Year": 2018,
+                "Machinery Manufacturing": 5.68
+            },
+            {
+                "Year": 2017,
+                "Machinery Manufacturing": 5.28
+            },
+            {
+                "Year": 2016,
+                "Machinery Manufacturing": 5.03
+            },
+            {
+                "Year": 2015,
+                "Machinery Manufacturing": 5.56
+            }
+        ]
+    },
+    {
+        "LineCode": 12,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/north_dakota/manufacturing.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Manufacturing",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Manufacturing": 28.2
+            },
+            {
+                "Year": 2024,
+                "Manufacturing": 28.37
+            },
+            {
+                "Year": 2023,
+                "Manufacturing": 28.32
+            },
+            {
+                "Year": 2022,
+                "Manufacturing": 27.38
+            },
+            {
+                "Year": 2021,
+                "Manufacturing": 26.25
+            },
+            {
+                "Year": 2020,
+                "Manufacturing": 25.63
+            },
+            {
+                "Year": 2019,
+                "Manufacturing": 26.67
+            },
+            {
+                "Year": 2018,
+                "Manufacturing": 26.08
+            },
+            {
+                "Year": 2017,
+                "Manufacturing": 24.75
+            },
+            {
+                "Year": 2016,
+                "Manufacturing": 24.55
+            },
+            {
+                "Year": 2015,
+                "Manufacturing": 25.52
+            }
+        ]
+    },
+    {
+        "LineCode": 6,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/north_dakota/mining_cons.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Professional and Business Services",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Professional and Business Services": 47.82
+            },
+            {
+                "Year": 2024,
+                "Professional and Business Services": 48.01
+            },
+            {
+                "Year": 2023,
+                "Professional and Business Services": 46.13
+            },
+            {
+                "Year": 2022,
+                "Professional and Business Services": 42.47
+            },
+            {
+                "Year": 2021,
+                "Professional and Business Services": 39.28
+            },
+            {
+                "Year": 2020,
+                "Professional and Business Services": 41.37
+            },
+            {
+                "Year": 2019,
+                "Professional and Business Services": 50.1
+            },
+            {
+                "Year": 2018,
+                "Professional and Business Services": 47.53
+            },
+            {
+                "Year": 2017,
+                "Professional and Business Services": 45.36
+            },
+            {
+                "Year": 2016,
+                "Professional and Business Services": 46.99
+            },
+            {
+                "Year": 2015,
+                "Professional and Business Services": 57.92
+            }
+        ]
+    },
+    {
+        "LineCode": 25,
+        "Indent": 3,
+        "Path": "D:/python_apps/socecon/data/north_dakota/non_durables.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Non-Durable Goods Manufacturing",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Non-Durable Goods Manufacturing": 10.08
+            },
+            {
+                "Year": 2024,
+                "Non-Durable Goods Manufacturing": 10.09
+            },
+            {
+                "Year": 2023,
+                "Non-Durable Goods Manufacturing": 9.8
+            },
+            {
+                "Year": 2022,
+                "Non-Durable Goods Manufacturing": 9.43
+            },
+            {
+                "Year": 2021,
+                "Non-Durable Goods Manufacturing": 9.18
+            },
+            {
+                "Year": 2020,
+                "Non-Durable Goods Manufacturing": 8.74
+            },
+            {
+                "Year": 2019,
+                "Non-Durable Goods Manufacturing": 8.68
+            },
+            {
+                "Year": 2018,
+                "Non-Durable Goods Manufacturing": 8.56
+            },
+            {
+                "Year": 2017,
+                "Non-Durable Goods Manufacturing": 8.45
+            },
+            {
+                "Year": 2016,
+                "Non-Durable Goods Manufacturing": 8.37
+            },
+            {
+                "Year": 2015,
+                "Non-Durable Goods Manufacturing": 8.38
+            }
+        ]
+    },
+    {
+        "LineCode": 56,
+        "Indent": 3,
+        "Path": "D:/python_apps/socecon/data/north_dakota/real_estate.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Trade, Transportation, and Utilities",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Trade, Transportation, and Utilities": 5.43
+            },
+            {
+                "Year": 2024,
+                "Trade, Transportation, and Utilities": 5.4
+            },
+            {
+                "Year": 2023,
+                "Trade, Transportation, and Utilities": 5.33
+            },
+            {
+                "Year": 2022,
+                "Trade, Transportation, and Utilities": 5.13
+            },
+            {
+                "Year": 2021,
+                "Trade, Transportation, and Utilities": 4.91
+            },
+            {
+                "Year": 2020,
+                "Trade, Transportation, and Utilities": 4.97
+            },
+            {
+                "Year": 2019,
+                "Trade, Transportation, and Utilities": 5.45
+            },
+            {
+                "Year": 2018,
+                "Trade, Transportation, and Utilities": 5.37
+            },
+            {
+                "Year": 2017,
+                "Trade, Transportation, and Utilities": 5.23
+            },
+            {
+                "Year": 2016,
+                "Trade, Transportation, and Utilities": 5.14
+            },
+            {
+                "Year": 2015,
+                "Trade, Transportation, and Utilities": 5.67
+            }
+        ]
+    },
+    {
+        "LineCode": 35,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/north_dakota/retail.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Retail Trade",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Retail Trade": 46.47
+            },
+            {
+                "Year": 2024,
+                "Retail Trade": 45.93
+            },
+            {
+                "Year": 2023,
+                "Retail Trade": 45.3
+            },
+            {
+                "Year": 2022,
+                "Retail Trade": 45.02
+            },
+            {
+                "Year": 2021,
+                "Retail Trade": 44.66
+            },
+            {
+                "Year": 2020,
+                "Retail Trade": 43.95
+            },
+            {
+                "Year": 2019,
+                "Retail Trade": 45.74
+            },
+            {
+                "Year": 2018,
+                "Retail Trade": 46.94
+            },
+            {
+                "Year": 2017,
+                "Retail Trade": 47.62
+            },
+            {
+                "Year": 2016,
+                "Retail Trade": 49.05
+            },
+            {
+                "Year": 2015,
+                "Retail Trade": 50.38
+            }
+        ]
+    },
+    {
+        "LineCode": 92,
+        "Indent": 0,
+        "Path": "D:/python_apps/socecon/data/north_dakota/service_providing_nd.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Private Service-Providing",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Private Service-Providing": 373.29
+            },
+            {
+                "Year": 2024,
+                "Private Service-Providing": 369.63
+            },
+            {
+                "Year": 2023,
+                "Private Service-Providing": 363.96
+            },
+            {
+                "Year": 2022,
+                "Private Service-Providing": 358.34
+            },
+            {
+                "Year": 2021,
+                "Private Service-Providing": 351.59
+            },
+            {
+                "Year": 2020,
+                "Private Service-Providing": 345.55
+            },
+            {
+                "Year": 2019,
+                "Private Service-Providing": 364.19
+            },
+            {
+                "Year": 2018,
+                "Private Service-Providing": 362.9
+            },
+            {
+                "Year": 2017,
+                "Private Service-Providing": 362.72
+            },
+            {
+                "Year": 2016,
+                "Private Service-Providing": 363.85
+            },
+            {
+                "Year": 2015,
+                "Private Service-Providing": 371.01
+            }
+        ]
+    },
+    {
+        "LineCode": 86,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/north_dakota/state_gov_all.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "All State Employment",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "All State Employment": 22.7
+            },
+            {
+                "Year": 2024,
+                "All State Employment": 22.28
+            },
+            {
+                "Year": 2023,
+                "All State Employment": 21.75
+            },
+            {
+                "Year": 2022,
+                "All State Employment": 21.62
+            },
+            {
+                "Year": 2021,
+                "All State Employment": 21.9
+            },
+            {
+                "Year": 2020,
+                "All State Employment": 21.44
+            },
+            {
+                "Year": 2019,
+                "All State Employment": 22.7
+            },
+            {
+                "Year": 2018,
+                "All State Employment": 22.95
+            },
+            {
+                "Year": 2017,
+                "All State Employment": 23.48
+            },
+            {
+                "Year": 2016,
+                "All State Employment": 24.28
+            },
+            {
+                "Year": 2015,
+                "All State Employment": 23.96
+            }
+        ]
+    },
+    {
+        "LineCode": 89,
+        "Indent": 0,
+        "Path": "D:/python_apps/socecon/data/north_dakota/trans_utils2.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Transportation, and Utilities",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Transportation, and Utilities": 22.64
+            },
+            {
+                "Year": 2024,
+                "Transportation, and Utilities": 23.04
+            },
+            {
+                "Year": 2023,
+                "Transportation, and Utilities": 23.03
+            },
+            {
+                "Year": 2022,
+                "Transportation, and Utilities": 22.55
+            },
+            {
+                "Year": 2021,
+                "Transportation, and Utilities": 21.87
+            },
+            {
+                "Year": 2020,
+                "Transportation, and Utilities": 22.03
+            },
+            {
+                "Year": 2019,
+                "Transportation, and Utilities": 23.78
+            },
+            {
+                "Year": 2018,
+                "Transportation, and Utilities": 23.45
+            },
+            {
+                "Year": 2017,
+                "Transportation, and Utilities": 23.1
+            },
+            {
+                "Year": 2016,
+                "Transportation, and Utilities": 23.03
+            },
+            {
+                "Year": 2015,
+                "Transportation, and Utilities": 26.68
+            }
+        ]
+    },
+    {
+        "LineCode": 36,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/north_dakota/trans_and_wh.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Transportation and Warehousing",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Transportation and Warehousing": 19.35
+            },
+            {
+                "Year": 2024,
+                "Transportation and Warehousing": 19.69
+            },
+            {
+                "Year": 2023,
+                "Transportation and Warehousing": 19.76
+            },
+            {
+                "Year": 2022,
+                "Transportation and Warehousing": 19.38
+            },
+            {
+                "Year": 2021,
+                "Transportation and Warehousing": 18.66
+            },
+            {
+                "Year": 2020,
+                "Transportation and Warehousing": 18.73
+            },
+            {
+                "Year": 2019,
+                "Transportation and Warehousing": 20.34
+            },
+            {
+                "Year": 2018,
+                "Transportation and Warehousing": 19.77
+            },
+            {
+                "Year": 2017,
+                "Transportation and Warehousing": 19.3
+            },
+            {
+                "Year": 2016,
+                "Transportation and Warehousing": 19.21
+            },
+            {
+                "Year": 2015,
+                "Transportation and Warehousing": 22.82
+            }
+        ]
+    },
+    {
+        "LineCode": 34,
+        "Indent": 2,
+        "Path": "D:/python_apps/socecon/data/north_dakota/wholesale.xlsx",
+        "Units": "All Employees, In Thousands",
+        "Description": "Wholesale Trade",
+        "Employee_data": [
+            {
+                "Year": 2025,
+                "Wholesale Trade": 24.49
+            },
+            {
+                "Year": 2024,
+                "Wholesale Trade": 24.65
+            },
+            {
+                "Year": 2023,
+                "Wholesale Trade": 23.92
+            },
+            {
+                "Year": 2022,
+                "Wholesale Trade": 23.08
+            },
+            {
+                "Year": 2021,
+                "Wholesale Trade": 22.68
+            },
+            {
+                "Year": 2020,
+                "Wholesale Trade": 23.11
+            },
+            {
+                "Year": 2019,
+                "Wholesale Trade": 24.3
+            },
+            {
+                "Year": 2018,
+                "Wholesale Trade": 23.96
+            },
+            {
+                "Year": 2017,
+                "Wholesale Trade": 23.91
+            },
+            {
+                "Year": 2016,
+                "Wholesale Trade": 24.38
+            },
+            {
+                "Year": 2015,
+                "Wholesale Trade": 26.6
+            }
+        ]
+    }
+]
