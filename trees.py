@@ -82,7 +82,7 @@ class TNUtils:
             return tree
         row = codes.iloc[0,]
         code = row['LineCode']
-        rank = row['indent']
+        rank = row['rank']
         # print(f"------------------------------------------------------")
         # print(f"LineCode: {code}, rank: {rank}")
         # print(f"tree data: {tree.data}, tree parent data: {tree.parent.data if tree.parent else None}")

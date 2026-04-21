@@ -1,10 +1,11 @@
 import re
+from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Tuple, Dict, Optional
-from pydantic import BaseModel
 
 
-class LCMeta(BaseModel):
+@dataclass
+class LCMeta:
     LineCode: int
     Description: str
     Rank: int
@@ -34,57 +35,58 @@ class LCMeta(BaseModel):
             linecode = int(m.group(1))
             spaces = len(m.group(2))
             text = m.group(3).rstrip()
-            lc_index = LCMeta(LineCode=linecode, Description=text, Rank=spaces)
+            lc_meta = LCMeta(LineCode=linecode, Description=text, Rank=spaces)
 
-            return lc_index
+            return lc_meta
         else:
             return None
 
 
+@dataclass
+class LCIndex:
+    lcx_codes: List[LCMeta]
 
     @classmethod
-    def parse_codes(cls):
-        lc_codes: List[LCIndex] = []
-        data_fn = Path(__file__).with_name("gdp_classes.txt")
+    def parse_codes(cls, fn="data/ND2/gdp_classes.txt"):
+        # alt = data/gdp_short_classes.txt
+        lc_codes: List[LCMeta] = []
+        data_fn = fn
         # if not in same dir, fall back to data/ND2/gdp_classes.txt
-        if not data_fn.exists():
-            data_fn = Path(__file__).parent / "data" / "ND2" / "gdp_classes.txt"
-
-        if not data_fn.exists():
-            print("Could not find gdp_classes.txt next to this script or in data/ND2/")
+        if not Path(data_fn).exists():
+            print(f"Could not find {data_fn}")
             return None
 
-        lines = data_fn.read_text(encoding='utf-8').splitlines()
+        print(f"Parsing {data_fn}")
+
+        with open(data_fn) as f:
+            lines = f.read().splitlines()
+            print(f"Read {len(lines)} lines from {data_fn}")
 
         # show first two lines (ln0, ln1) and a small sample
         for line in lines:
-            parsed: LCIndex = cls.parse_line(line)
+            parsed: LCMeta|None = LCMeta.parse_line(line)
             if not parsed:
                 print("Could not parse line '%s'" % line)
             lc_codes.append(parsed)
-        return lc_codes
+        return LCIndex(lc_codes)
 
-
-class LCIndex(BaseModel):
-    lc_metas: List[LCMeta]
-
-    def find_lc(self, desc: str) -> Optional[LCMeta]:
-        """Find the LCMeta with the given description, ignoring leading/trailing whitespace.
-
-        Returns the LCMeta if found, or None if not found.
-        """
-        desc = desc.strip()
-        for meta in self.lc_metas:
-            if meta.Description.strip() == desc:
-                return meta
-        return None
-
-    def find_desc(self, lc: int) -> Optional[LCMeta]:
-        """Find the LCMeta with the given description, ignoring leading/trailing whitespace. """
-        for meta in self.lc_metas:
-            if meta.LineCode  == lc:
-                return meta
+    def get_lc(self, desc):
+        for code in self.lcx_codes:
+            if code.Description == desc:
+                return code.LineCode
         else:
             return None
 
+    def get_desc(self, lc: int):
+        for code in self.lcx_codes:
+            if code.LineCode == lc:
+                return code.Description
+        else:
+            return None
 
+    def get_rank(self, lc):
+        for code in self.lcx_codes:
+            if code.LineCode == lc:
+                return code.Rank
+        else:
+            return None

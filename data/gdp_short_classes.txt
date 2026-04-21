@@ -1,9 +1,9 @@
 1	All industry total
 2	 Private industries
-3	  Agriculture, forestry, fishing
+3	  Agriculture
 4	   Farms
 5	   Forestry, fishing
-6	  Mining all extraction
+6	  Mining, all
 7	   Oil and gas
 8	   Mining
 9	   Support mining
