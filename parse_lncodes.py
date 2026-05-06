@@ -60,13 +60,14 @@ class LCIndex:
 
         with open(data_fn) as f:
             lines = f.read().splitlines()
-            print(f"Read {len(lines)} lines from {data_fn}")
+            # print(f"Read {len(lines)} lines from {data_fn}")
 
         # show first two lines (ln0, ln1) and a small sample
         for line in lines:
             parsed: LCMeta|None = LCMeta.parse_line(line)
             if not parsed:
                 print("Could not parse line '%s'" % line)
+                continue
             lc_codes.append(parsed)
         return LCIndex(lc_codes)
 

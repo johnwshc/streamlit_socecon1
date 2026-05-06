@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from lcx_codes import LCodes
 from trees import TreeNode, TNUtils
 from config import Config
-from   parse_lncodes import LCIndex
+from parse_lncodes import LCIndex
 from employees_2024 import EmpInd2024 as EmpInd
 import re
 from pathlib import Path
@@ -46,51 +46,113 @@ class StateEmpDataBundle:
         )
 
 
-class EmpConfig:   #  needs to include data type (GDP, Surplus, Taxation, compensation, subsidies).
+class DataConfig:   #  needs to include data type (GDP, Surplus, Taxation, compensation, subsidies).
     """A configuration class for managing the specific US state (SA) associated with this data."""
-    registered_states = {'ND':
-                             {'name': 'North Dakota Employment Data 2015-2025',
-                              'src': 'json/bundle.json'},
+    ddir = f"{Path(Config.basedir).as_posix()}"
+    registered_states = {'ND': {'GDP': f'{ddir}/json/json_data/SAGDP2_ND_1997_2024.json',
+                                'EMP': f'{ddir}/json/bundle.json',
+                                'TAX-SUBS': f'data/sagdp/SAGDP3_ND_1997_2024.csv',
+                                'COMP': f'data/sagdp/SAGDP4_ND_1997_2024.csv',
+                                'SUBS': f'data/sagdp/SAGDP5_ND_1997_2024.csv',
+                                'TAX': f'data/sagdp/SAGDP6_ND_1997_2024.csv',
+                                'SURPLUS': f'data/sagdp/SAGDP7_ND_1997_2024.csv',
+                                'REAL_GDP': f'data/sagdp/SAGDP9_ND_1997_2025.csv',
+                                },
+                         'ALL': {'EMP': f'{ddir}/json/bundle.json'},
+                         'WV': {'GDP': f'{ddir}/data/sagdp/SAGDP2_WV_1997_2025.csv',},
+                         'MN': {'GDP': f'{ddir}/data/sagdp/SAGDP2_MN_1997_2025.csv',},
                          }
+
+    @classmethod
+    def get_state_gdp_data(cls, sa_name: str = 'ND', doc='GDP') -> pd.DataFrame:
+        if sa_name not in DataConfig.registered_states.keys():
+            raise ValueError(f"State {sa_name} not registered in EmpConfig.registered_states.")
+        if sa_name == 'ND':
+            fn = DataConfig.registered_states[f'{sa_name}'][f'{doc}']
+            assert Path(fn).exists(), f"File {fn} does not exist."
+
+            if Path(fn).suffix == '.csv':
+                df = pd.read_csv(fn)
+                df.drop([92, 93, 94, 95], axis=0, inplace=True)
+                return df
+            elif Path(fn).suffix == '.json':
+                df = pd.read_json(fn)
+                if doc != 'EMP':
+                     df.drop([92, 93, 94, 95], axis=0, inplace=True)
+                return df
+            else:
+                raise ValueError(f"Unsupported file type for state {sa_name} GDP data: {Path(fn).suffix}")
+        elif sa_name in SAEmpGdpMgr.states_name_map.keys():
+            fn = DataConfig.registered_states[f'{sa_name}'][f'{doc}']
+            assert Path(fn).exists(), f"File {fn} does not exist."
+            df = pd.read_csv(fn)
+            df.drop([92, 93, 94, 95], axis=0, inplace=True)
+            return df
+        else:
+            raise NotImplementedError(f"State {sa_name} GDP data retrieval not implemented.")
     # Placeholder for actual data, replace with real data as needed
 
 class SAEmpGdpMgr:
 
-    """A manager class for handling North Dakota employment and GDP data, including loading, processing, and displaying the data."""
+    """A manager class for handling state employment and GDP data, including loading, processing, and displaying the data."""
 
-    json_path: str = 'json\\bundle.json'
-    json_gdp_path: str = Path('json\\json_data')
+    states_name_map = {'ND':'North Dakota' ,
+                       'WV':'West Virginia',
+                       'MN':'Minnesota'}
+
+
+    # @classmethod
+    # def get_state_gdp_data(cls, sa_name: str='ND', doc='GDP') -> pd.DataFrame:
+    #     if sa_name not in DataConfig.registered_states.keys():
+    #         raise ValueError(f"State {sa_name} not registered in EmpConfig.registered_states.")
+    #     if sa_name == 'ND':
+    #         fn = DataConfig.registered_states[f'{sa_name}'][f'{doc}']
+    #
+    #     df = pd.read_json(fn)
+    #     df.drop([92, 93, 94, 95], axis=0, inplace=True)
+    #     return df
 
     @classmethod
-    def get_state_gdp_data(cls, sa_name: str) -> pd.DataFrame:
-        import json
-        fn = f"{SAEmpGdpMgr.json_gdp_path}/{sa_name}"
-        df = pd.read_json(fn)
-        df.drop([92, 93, 94, 95], axis=0, inplace=True)
-        return df
+    def get_nd_state_emp_bundles(cls, sa_name: str='ND') -> tuple[List[StateEmpDataBundle], pd.DataFrame]:
+        state_bundles_fn = DataConfig.registered_states['ALL']['EMP']
+        nd_state_bundles: List[StateEmpDataBundle] = SAEmpGdpMgr.restore_bundles_from_json(state_bundles_fn)
 
-    def __init__(self, conf:dict = None, bundles: List[StateEmpDataBundle] = None, sa_name='SAGDP2_ND_1997_2024.json'):
-        self.conf = conf if conf is not None else EmpConfig.registered_states.get('ND')
+        bundle_dfs = [b.Employee_data for b in nd_state_bundles]
+        bun_df_cat = pd.concat(bundle_dfs, axis=1)
+        return nd_state_bundles, bun_df_cat
+
+    def __init__(self, sa_name='ND', doc='GDP'):
+
         self.lc_index: LCIndex = LCIndex.parse_codes()
         self.lc_short_index: LCIndex = LCIndex.parse_codes(fn='data/ND2/gdp_short_classes.txt')
-        if bundles is None:
-            self.state_bundles: List[StateEmpDataBundle] = SAEmpGdpMgr.restore_bundles_from_json(SAEmpGdpMgr.json_path)
-        else:
-            self.state_bundles: List[StateEmpDataBundle] = bundles
-        self.emp_lcs: List[int] = LCodes.emp_lcs
-        self.df_nd_gdp = SAEmpGdpMgr.get_state_gdp_data(sa_name)
-        self.df_nd_gdp['rank'] = self.df_nd_gdp['LineCode'].apply(self.lc_index.get_rank)
-        self.df_nd_gdp['rank'] = self.df_nd_gdp['rank'].astype(int)
-        self.df_nd_gdp["clean_description"] = self.df_nd_gdp["Description"]
-        self.df_nd_gdp["category"] = self.df_nd_gdp["LineCode"].apply(SAEmpGdpMgr.set_category)
-        self. l2_mask = self.df_nd_gdp['rank'] == 2
-        self.emp_ind_2024 = EmpInd()
+        self.nd_state_bundles, self.nd_edf = SAEmpGdpMgr.get_nd_state_emp_bundles()
 
-    def get_rank_2_2024(self) -> pd.DataFrame:
-        gov_lc_83_s = self.df_nd_gdp.iloc[82,].copy(deep=True)
+        self.nd_emp_lcs: List[int] = LCodes.emp_lcs
+        self.df_sagdp2 = DataConfig.get_state_gdp_data(sa_name, doc)
+        # self.df_sagdp2 = self.df_sagdp2.set_index('Description')
+        # self.df_sagdp2 = self.df_sagdp2.sort_values(by=['LineCode', 'Description'], ascending=[True, True])
+        self.df_sagdp2['rank'] = self.df_sagdp2['LineCode'].apply(self.lc_index.get_rank)
+        self.df_sagdp2['rank'] = self.df_sagdp2['rank'].astype(int)
+        self.df_sagdp2["clean_description"] = self.df_sagdp2["Description"]
+        self.df_sagdp2["category"] = self.df_sagdp2["LineCode"].apply(SAEmpGdpMgr.set_category)
+        self. l2_mask = self.df_sagdp2['rank'] == 2
+        self.emp_ind_2024: EmpInd = EmpInd()
+        self.edf = self.emp_ind_2024.combined_extended.copy(deep=True)
+        self.state_name = SAEmpGdpMgr.states_name_map[sa_name]
+        self.sa_name = sa_name
+        self.doc_name = doc
+        self.edf_state_data = self.edf.loc[self.state_name].copy()
+        ser_data = self.edf_state_data.copy()
+        edf_state_data:pd.DataFrame = ser_data.reset_index()
+        edf_state_data.rename(columns={'index': 'Description'}, inplace=True)
+        edf_state_data['category'] = edf_state_data['Description'].apply(self.emp_ind_2024.get_emp_category)
+        self.edf_state_data = edf_state_data.set_index('Description')
+
+    def get_rank_2_ind2024(self) -> pd.DataFrame:
+        gov_lc_83_s = self.df_sagdp2.iloc[82,].copy(deep=True)
 
 
-        dff_rank2 = self.df_nd_gdp[self.l2_mask]
+        dff_rank2 = self.df_sagdp2[self.l2_mask]
         dff_rank2 =  dff_rank2.reset_index(drop=True)
         disp_columns_1 = ['LineCode', 'Description', '2024', 'category', 'clean_description', 'rank']
         disp_gdp = dff_rank2[disp_columns_1].copy()
@@ -113,8 +175,8 @@ class SAEmpGdpMgr:
     def get_tree(self) -> TreeNode:
 
 
-        codes: pd.DataFrame = self.df_nd_gdp[['LineCode', 'rank']].copy()
-        dcodes: pd.DataFrame = self.df_nd_gdp[['LineCode', 'Description', 'rank']].copy()
+        codes: pd.DataFrame = self.df_sagdp2[['LineCode', 'rank']].copy()
+        # dcodes: pd.DataFrame = self.df_sagdp2[['LineCode', 'Description', 'rank']].copy()
 
 
 
@@ -125,25 +187,6 @@ class SAEmpGdpMgr:
 
 
 
-
-    def extract_2024_state_emp_data(self) -> pd.DataFrame :
-        row2024_emp = self.edf.loc[2024].copy()
-        #  promote series to a dataframe.
-        df_from_series = row2024_emp.reset_index()
-        #  assign LineCode column
-        df_from_series['LineCode'] = df_from_series['index'].apply(lambda x: SAEmpGdpMgr.get_lc(x, self.state_bundles))
-        sdf_lcs = list(self.dff_rank2.LineCode)
-        df_from_series['in_sdf'] = df_from_series.LineCode.apply(lambda x: True if x in sdf_lcs else False)
-        return df_from_series
-
-    def merge_2024_ind_emp(self) -> pd.DataFrame:
-
-        enp_ddf = self.extract_2024_state_emp_data()
-        mask = enp_ddf['in_sdf'] == True
-        return enp_ddf[mask].copy().reset_index(drop=True)
-
-
-    # %%
     @staticmethod
     def set_category( lc: int) -> str:
         linecode = int(lc)
@@ -177,11 +220,11 @@ class SAEmpGdpMgr:
 
 
 
-    def get_2024_classification_descs(self) -> pd.DataFrame:
-
-        dff_nd_2024_gdp = self.clean_nd_for_2024_display()
-        ##  [['Description', 'ShortDesc']].copy()
-        return dff_nd_2024_gdp
+    # def get_2024_classification_descs(self) -> pd.DataFrame:
+    #
+    #     dff_nd_2024_gdp = self.clean_nd_for_2024_display()
+    #     ##  [['Description', 'ShortDesc']].copy()
+    #     return dff_nd_2024_gdp
 
     @classmethod
     def show_descs_table(cls, dff_classes: pd.DataFrame, title: str = 'Classification Descriptions',
@@ -214,7 +257,7 @@ class SAEmpGdpMgr:
 
         new_emp_inds = {}
 
-        for b in self.state_bundles:
+        for b in self.nd_state_bundles:
             ind_desc: str = b.Description
             ind_lc = b.LineCode
             units = b.Units
@@ -249,9 +292,9 @@ class SAEmpGdpMgr:
 
 
     @classmethod
-    def restore_bundles_from_json(cls, json_path: str) -> List[StateEmpDataBundle]:
+    def restore_bundles_from_json(cls, jpath: str) -> List[StateEmpDataBundle]:
         import json
-        with open(json_path, 'r') as f:
+        with open(jpath, 'r') as f:
             blist = json.load(f)
         bundles = []
         for bdict in blist:
@@ -273,9 +316,9 @@ class SAEmpGdpMgr:
     def get_state_data(cls) -> pd.DataFrame:
         return cls.load_df_from_json(cls.data_file)
 
-    @classmethod
-    def get_state_dcodes(cls) -> pd.DataFrame:
-        return cls.load_dcodes_from_json(Config.SA_GDP_DCODES_ND)
+    # @classmethod
+    # def get_state_dcodes(cls) -> pd.DataFrame:
+    #     return cls.load_dcodes_from_json(Config.SA_GDP_DCODES_ND)
 
     @classmethod
     def save_dcodes_to_json(cls, df: pd.DataFrame, json_path: str):

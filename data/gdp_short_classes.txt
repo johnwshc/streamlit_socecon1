@@ -1,5 +1,5 @@
-1	All industry total
-2	 Private industries
+1	Total
+2	 Industries
 3	  Agriculture
 4	   Farms
 5	   Forestry, fishing
@@ -19,7 +19,7 @@
 19	    Computer, electronic
 20	    Electrical equipment
 21	    Motor vehicles
-22	    Other trans.
+22	    Other transport
 23	    Furniture
 24	    Misc
 25	   Nondurable
@@ -33,9 +33,9 @@
 33	    Plastics/rubber
 34	  Wholesale
 35	  Retail
-36	  Transportation/wh
+36	  Transportation/WH
 37	   Air
-38     Rail
+38    Rail
 39	   Water
 40	   Truck
 41	   passenger trans

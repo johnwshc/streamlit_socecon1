@@ -10,7 +10,7 @@ class EmpInd2024:
     lc_emp2024_map = {
         'Total':[2-92],
         'Mining and logging': [6,7,8,9],
-        'Construction': [11,13],
+        'Construction': [11],
         'Manufacturing': [12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33],
         'Trade, transportation, and utilities': [10,34, 35,36,37,38,39,40,41,42,43,44],
         'Information': [45, 46,47,48,49],
@@ -20,6 +20,33 @@ class EmpInd2024:
         'Leisure and hospitality': [75,76,77,78,79,80,81],
         'Other services': [82],
         'Government': [83,84,85,86]
+    }
+    emp_long_short_descs_map = {
+        'Total': 'Total',
+        'Mining and logging': 'Mining',
+        'Construction': 'Construction',
+        'Manufacturing': 'Mfg.',
+        'Trade, transportation, and utilities': 'Trade/Utils.',
+        'Information': 'Info.',
+        'Financial activities': 'Fin./Rents',
+        'Professional and business services': 'Biz Services',
+        'Education and health services': 'Ed./Health',
+        'Leisure and hospitality': 'Leisure',
+        'Other services': 'Other',
+        'Government': 'Govt.',
+    }
+    category_emp_map = {
+        'Mining and logging': 'Production',
+        'Construction': 'Production',
+        'Manufacturing': 'Production',
+        'Trade, transportation, and utilities': 'Services',
+        'Information': 'Information',
+        'Financial activities': 'Services',
+        'Professional and business services': 'Services',
+        'Education and health services': 'Services',
+        'Leisure and hospitality': 'Services',
+        'Other services': 'Services',
+        'Government': 'Government',
     }
     def __init__(self):
         # d table compose
@@ -33,6 +60,7 @@ class EmpInd2024:
         self.dff_a = pd.read_excel(self.emp_doc_a, engine='openpyxl')
         self.dff_b = pd.read_excel(self.emp_doc_b, engine='openpyxl')
         self.dff_c = pd.read_excel(self.emp_doc_c, engine='openpyxl')
+        self.combined_extended = self.get_combined_extended()
 
 
 
@@ -129,7 +157,7 @@ class EmpInd2024:
         dfc= dfc.apply(pd.to_numeric, errors="coerce").astype(float)
         return dfc
 
-    def get_combined_extended(self) -> pd.DataFrame:
+    def get_combined_extended(self,save=True) -> pd.DataFrame:
 
         all_states_a = self.clean_dff_a()
         all_states_b = self.clean_dff_b()
@@ -139,3 +167,7 @@ class EmpInd2024:
 
         combined_extended = pd.concat([all_states_a, all_states_b, all_states_c, all_states_d], axis=1)
         return combined_extended
+
+    def get_emp_category(self, desc: str) -> str:
+        return self.category_emp_map.get(desc, 'Other')
+
