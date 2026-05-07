@@ -44,7 +44,7 @@ class GdpDisplays:
         return fig
 
 class EmpDisplays:
-    def __init__(self, mgr: SAEmpGdpMgr):
+    def __init__(self, mgr: Mgr):
         self.ls_map: dict = EmpInd.emp_long_short_descs_map
         self.emp_df = mgr.edf_state_data.copy(deep=True)
         self.mgr = mgr
@@ -82,7 +82,7 @@ class EmpDisplays:
         return fig
 
 class CompDisplays:
-    def __init__(self, mgr: SAEmpGdpMgr) -> pd.DataFrame:
+    def __init__(self, mgr: Mgr) -> pd.DataFrame:
         self.gmgr = mgr
         self.df = mgr.df_sagdp2.copy(deep=True)
         self.rdfs = mgr.get_rank_2_ind2024()
@@ -95,31 +95,31 @@ class CompDisplays:
 
 
 class TaxDisplays:
-    def __init__(self, mgr: SAEmpGdpMgr) -> pd.DataFrame:
+    def __init__(self, mgr: Mgr) -> pd.DataFrame:
         self.gmgr = mgr
         self.df = mgr.df_sagdp2.copy(deep=True)
         self.rdfs = mgr.get_rank_2_ind2024()
 
 class SurplusDisplays:
-    def __init__(self, mgr: SAEmpGdpMgr) -> pd.DataFrame:
+    def __init__(self, mgr: Mgr) -> pd.DataFrame:
         self.gmgr = mgr
         self.df = mgr.df_sagdp2.copy(deep=True)
         self.rdfs = mgr.get_rank_2_ind2024()
 
 class TaxSubsDisplays:
-    def __init__(self, mgr: SAEmpGdpMgr) -> pd.DataFrame:
+    def __init__(self, mgr: Mgr) -> pd.DataFrame:
         self.gmgr = mgr
         self.df = mgr.df_sagdp2.copy(deep=True)
         self.rdfs = mgr.get_rank_2_ind2024()
 
 class Subsidies_displays:
-    def __init__(self, mgr: SAEmpGdpMgr) -> pd.DataFrame:
+    def __init__(self, mgr: Mgr) -> pd.DataFrame:
         self.gmgr = mgr
         self.df = mgr.df_sagdp2.copy(deep=True)
         self.rdfs = mgr.get_rank_2_ind2024()
 
 class ReaGdpDisplays:
-    def __init__(self, mgr: SAEmpGdpMgr) -> pd.DataFrame:
+    def __init__(self, mgr: Mgr) -> pd.DataFrame:
         self.gmgr = mgr
         self.df = mgr.df_sagdp2.copy(deep=True)
         self.rdfs = mgr.get_rank_2_ind2024()
