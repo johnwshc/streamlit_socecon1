@@ -1,28 +1,21 @@
 
 import plotly.express as px
-import plotly.graph_objects as go
-import pandas as pd
 from emp_bundles import SAEmpGdpMgr as Mgr
 from employees_2024 import EmpInd2024 as EmpInd
-from parse_lncodes import LCMeta, LCIndex
-from pathlib import Path
+import pandas as pd
 
 
 class GdpDisplays:
 
-    def __init__(self, gmgr: Mgr):
-        self.gmgr = gmgr
-        self.sdf = gmgr.df_sagdp2.copy(deep=True)
-        self.short_index: LCIndex = LCIndex.parse_codes(Path('data\\gdp_short_classes.txt').as_posix())
-        long_index = LCIndex.parse_codes(Path('data\\gdp_classes.txt').as_posix())
-        self.sdf['ShortDesc'] = self.sdf.LineCode.apply(self.short_index.get_desc)
-        self.sdf.drop(['clean_description'], axis=1, inplace=True)
+    def __init__(self, mgr: Mgr):
+        self.gmgr = mgr
         self.sdf_r2 = self.gmgr.get_rank_2_ind2024()
-        self.sdf_r2['short_desc'] = self.sdf_r2.LineCode.apply(gmgr.lc_short_index.get_desc)
+        self.sdf_r2['short_desc'] = self.sdf_r2.LineCode.apply(self.gmgr.lc_short_index.get_desc)
         self.sdf_r2.drop(['clean_description'], axis=1, inplace=True)
+        self.state = self.gmgr.state_name
 
 
-    def show_nd_gdp_by_industry_category_2(self, state='North Dakota') -> px.bar:
+    def sa_gdp_by_industry_r2(self) -> px.bar:
         sorted_df = self.sdf_r2.sort_values(by='2024', ascending=False)
 
         fig = px.bar(
@@ -35,13 +28,32 @@ class GdpDisplays:
                 'ShortDesc': list(sorted_df['short_desc'])
             },
             labels={
-                '2024': '2024 N. Dakota GDP in millions',
+                '2024': f'2024 {self.gmgr.label}',
                 'short_desc': 'Public and Private Industries',
                 'category': 'Category'
             },
-            title=f'{state} GDP by Industry Category'
+            title=f'2024 {self.state} {self.gmgr.title}'
         )
         return fig
+    def sagdp_totals_yrs(self) -> px.bar:
+        data_yrs = ['1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004',
+                    '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014',
+                    '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024']
+        all_data = self.gmgr.data_all_class
+        all_data_attrs = all_data.get_attrs()
+        all_yrs_total_nom_gdp = {k: d for k, d in all_data_attrs.items() if k in data_yrs}
+        all_yrs_total_nom_gdp_ser = pd.Series(all_yrs_total_nom_gdp)
+        data_nd = all_yrs_total_nom_gdp_ser
+        data_nd_df = data_nd.reset_index(inplace=False)
+        data_nd_df.columns = ['Year', 'Total_GDP']
+        fig_tot = px.bar(data_nd_df,
+                     x='Year',
+                     y='Total_GDP',
+                     title='Total North Dakota GDP by Year',
+                     labels={'Total_GDP': 'Total GDP (in millions of USD)'}
+                     )
+        return fig_tot
+
 
 class EmpDisplays:
     def __init__(self, mgr: Mgr):
@@ -55,11 +67,11 @@ class EmpDisplays:
         emp_dff.rename(columns={f'{mgr.state_name}': '2024 employees (in thousands)'}, inplace=True)
         emp_dff.drop(['Description'], axis=1, inplace=True)
         self.emp_dff = emp_dff.copy(deep=True)
-        print(f"emp_dff.head() {self.emp_dff.head()}")
+        # print(f"emp_dff.head() {self.emp_dff.head()}")
 
 
 
-    def show_emp_by_industry_category_2(self) -> px.bar:
+    def emp_by_industry_r2(self) -> px.bar:
 
         sorted_df = self.emp_dff.sort_values(by='2024 employees (in thousands)', ascending=False)
         state = self.mgr.state_name
@@ -80,51 +92,6 @@ class EmpDisplays:
             title=f'{state} Employment Industry Category'
         )
         return fig
-
-class CompDisplays:
-    def __init__(self, mgr: Mgr) -> pd.DataFrame:
-        self.gmgr = mgr
-        self.df = mgr.df_sagdp2.copy(deep=True)
-        self.rdfs = mgr.get_rank_2_ind2024()
-        # self.short_index: LCIndex = LCIndex.parse_codes(Path('data\\gdp_short_classes.txt').as_posix())
-        # long_index = LCIndex.parse_codes(Path('data\\gdp_classes.txt').as_posix())
-        # self.df['ShortDesc'] = self.sdf.LineCode.apply(self.short_index.get_desc)
-        # self.df.drop(['clean_description'], axis=1, inplace=True)
-        # self.sdf_r2: pd.DataFrame = self.gmgr.get_rank_2_ind2024()
-        # self.sdf_r2.reset_index(drop=True, inplace=True)
-
-
-class TaxDisplays:
-    def __init__(self, mgr: Mgr) -> pd.DataFrame:
-        self.gmgr = mgr
-        self.df = mgr.df_sagdp2.copy(deep=True)
-        self.rdfs = mgr.get_rank_2_ind2024()
-
-class SurplusDisplays:
-    def __init__(self, mgr: Mgr) -> pd.DataFrame:
-        self.gmgr = mgr
-        self.df = mgr.df_sagdp2.copy(deep=True)
-        self.rdfs = mgr.get_rank_2_ind2024()
-
-class TaxSubsDisplays:
-    def __init__(self, mgr: Mgr) -> pd.DataFrame:
-        self.gmgr = mgr
-        self.df = mgr.df_sagdp2.copy(deep=True)
-        self.rdfs = mgr.get_rank_2_ind2024()
-
-class Subsidies_displays:
-    def __init__(self, mgr: Mgr) -> pd.DataFrame:
-        self.gmgr = mgr
-        self.df = mgr.df_sagdp2.copy(deep=True)
-        self.rdfs = mgr.get_rank_2_ind2024()
-
-class ReaGdpDisplays:
-    def __init__(self, mgr: Mgr) -> pd.DataFrame:
-        self.gmgr = mgr
-        self.df = mgr.df_sagdp2.copy(deep=True)
-        self.rdfs = mgr.get_rank_2_ind2024()
-
-
 
 
 

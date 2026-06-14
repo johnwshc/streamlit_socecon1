@@ -4,10 +4,10 @@ from dataclasses import dataclass
 from lcx_codes import LCodes
 from trees import TreeNode, TNUtils
 from config import Config
+from data_config import DataConfig
 from parse_lncodes import LCIndex
 from employees_2024 import EmpInd2024 as EmpInd
 import re
-from pathlib import Path
 
 
 
@@ -44,53 +44,20 @@ class StateEmpDataBundle:
             Employee_data=emp_data_df,
             Units=json_dict['Units']
         )
+class ERDataClass:
+    def __init__(self, data_dict):
+        for key, value in data_dict.items():
+            setattr(self, key, value)
+        self.description = data_dict['Description']
 
+        self.unit = data_dict['Unit']
 
-class DataConfig:   #  needs to include data type (GDP, Surplus, Taxation, compensation, subsidies).
-    """A configuration class for managing the specific US state (SA) associated with this data."""
-    ddir = f"{Path(Config.basedir).as_posix()}"
-    registered_states = {'ND': {'GDP': f'{ddir}/json/json_data/SAGDP2_ND_1997_2024.json',
-                                'EMP': f'{ddir}/json/bundle.json',
-                                'TAX-SUBS': f'data/sagdp/SAGDP3_ND_1997_2024.csv',
-                                'COMP': f'data/sagdp/SAGDP4_ND_1997_2024.csv',
-                                'SUBS': f'data/sagdp/SAGDP5_ND_1997_2024.csv',
-                                'TAX': f'data/sagdp/SAGDP6_ND_1997_2024.csv',
-                                'SURPLUS': f'data/sagdp/SAGDP7_ND_1997_2024.csv',
-                                'REAL_GDP': f'data/sagdp/SAGDP9_ND_1997_2025.csv',
-                                },
-                         'ALL': {'EMP': f'{ddir}/json/bundle.json'},
-                         'WV': {'GDP': f'{ddir}/data/sagdp/SAGDP2_WV_1997_2025.csv',},
-                         'MN': {'GDP': f'{ddir}/data/sagdp/SAGDP2_MN_1997_2025.csv',},
-                         }
+    def get_attr(self, attr_v):
+        return self.__getattribute__(attr_v)
 
-    @classmethod
-    def get_state_gdp_data(cls, sa_name: str = 'ND', doc='GDP') -> pd.DataFrame:
-        if sa_name not in DataConfig.registered_states.keys():
-            raise ValueError(f"State {sa_name} not registered in EmpConfig.registered_states.")
-        if sa_name == 'ND':
-            fn = DataConfig.registered_states[f'{sa_name}'][f'{doc}']
-            assert Path(fn).exists(), f"File {fn} does not exist."
+    def get_attrs(self):
+        return vars(self)
 
-            if Path(fn).suffix == '.csv':
-                df = pd.read_csv(fn)
-                df.drop([92, 93, 94, 95], axis=0, inplace=True)
-                return df
-            elif Path(fn).suffix == '.json':
-                df = pd.read_json(fn)
-                if doc != 'EMP':
-                     df.drop([92, 93, 94, 95], axis=0, inplace=True)
-                return df
-            else:
-                raise ValueError(f"Unsupported file type for state {sa_name} GDP data: {Path(fn).suffix}")
-        elif sa_name in SAEmpGdpMgr.states_name_map.keys():
-            fn = DataConfig.registered_states[f'{sa_name}'][f'{doc}']
-            assert Path(fn).exists(), f"File {fn} does not exist."
-            df = pd.read_csv(fn)
-            df.drop([92, 93, 94, 95], axis=0, inplace=True)
-            return df
-        else:
-            raise NotImplementedError(f"State {sa_name} GDP data retrieval not implemented.")
-    # Placeholder for actual data, replace with real data as needed
 
 class SAEmpGdpMgr:
 
@@ -129,6 +96,19 @@ class SAEmpGdpMgr:
 
         self.nd_emp_lcs: List[int] = LCodes.emp_lcs
         self.df_sagdp2 = DataConfig.get_state_gdp_data(sa_name, doc)
+
+        #  get total for all industries -- not employment
+        if doc != 'EMP':
+            all_total = self.df_sagdp2.iloc[0,:]
+            all_total_d = all_total.to_dict()
+            # print(f"all _gdp_data: {all_total_d}")
+            self.data_all_class = ERDataClass(all_total_d)
+        else:
+            self.data_all_class = None
+
+        # get all private industries
+        private_industries = self.df_sagdp2.iloc[1,:]
+
         # self.df_sagdp2 = self.df_sagdp2.set_index('Description')
         # self.df_sagdp2 = self.df_sagdp2.sort_values(by=['LineCode', 'Description'], ascending=[True, True])
         self.df_sagdp2['rank'] = self.df_sagdp2['LineCode'].apply(self.lc_index.get_rank)
@@ -141,6 +121,8 @@ class SAEmpGdpMgr:
         self.state_name = SAEmpGdpMgr.states_name_map[sa_name]
         self.sa_name = sa_name
         self.doc_name = doc
+        self.label = DataConfig.labels[doc]
+        self.title = DataConfig.titles[doc]
         self.edf_state_data = self.edf.loc[self.state_name].copy()
         ser_data = self.edf_state_data.copy()
         edf_state_data:pd.DataFrame = ser_data.reset_index()
