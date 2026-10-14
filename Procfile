@@ -1,1 +1,1 @@
-web: streamlit run app.py --server.port=$PORT                      
+web: streamlit run app_wv.py --server.port=$PORT

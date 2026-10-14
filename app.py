@@ -39,6 +39,11 @@ with tab1:
     with open('markdown/gdp_totals_nd.md', 'r') as f:
         gdp_totals_nd_text = f.read()
     st.markdown(gdp_totals_nd_text)
+    st.write("### GDP PER CAPITA for North Dakota:")
+    st.image("./images/nd_gdp_percap.png")
+    st.write("### Median family income for North Dakota 2000-2024")
+    fig_med = gdp_displays.median_comp_2000_2024()
+    st.plotly_chart(fig_med)
 
 
 with tab2:
@@ -48,7 +53,9 @@ with tab2:
     gdp_displays = plotly_displays.GdpDisplays(surp_mgr)
     surp_fig = gdp_displays.sa_gdp_by_industry_r2()
     st.plotly_chart(surp_fig)
-    
+    with open('markdown/surplus_nd.md', 'r') as f:
+        surplus_nd_text = f.read()
+    st.markdown(surplus_nd_text)
 
     # st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
 with tab3:
