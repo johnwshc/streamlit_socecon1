@@ -1,13 +1,13 @@
 ## North Dakota Political Economy
 
 Our tasks here are to:
-1. Define the political economy of North Dakota.
-2. Identify the key social relations – especially monopoly relations –
-and economic categories that shape North Dakota's political economy.
-3. Outline an anti-monopoly strategy  -- the key stage a revolutionary
-process that will resolve the fascist threat and open up a road to socialism
+1. ##### Define the political economy of North Dakota.
+2. ##### Identify the key social relations, especially monopoly relations,and economic categories that shape North Dakota's political economy.
+3. ##### Outline an anti-monopoly strategy  -- the key stage in a revolutionary process that will resolve the fascist threat and open up a road to socialism.
 
-### Marx and the Classical Economists
+### Features of a Marxist approach to 'political economy'
+
+#### Marx and the Classical Economists
 
 While classical economists like Adam Smith
 and David Ricardo defined political economy 
@@ -35,6 +35,8 @@ commodity is not just an object; it is the
 physical embodiment of human labor-power 
 that has been bought and sold in a market.
 
+#### Production vs Consumption as a Starting Point
+
 GDP (gross domestic product) is a good place to 
 start in gaining a Marxist understanding of a state's 
 _political economy_, or, its _"relations of 
@@ -46,25 +48,22 @@ capitalist production, and is a key concept
 in understanding the dynamics – motion, production, and 
 reproduction – of capitalist society.
 
-*The first question, therefore, is: What does North 
-Dakota produce? Followed by: What is the value of 
-this production?*
-
+##### *The first question, therefore, is: What does North Dakota produce?*
+##### Followed by: What is the value of this production?*
+h
 Other questions must follow:
 
-* Who are the workers and occupations 
-in North Dakota that product its wealth?
-* What is the compensation paid to workers in North 
-Dakota, by each GDP category? 
-* What is the surplus extracted in each category? 
-* what are the taxes paid by each GDP category??
-* What are the subsidies received by each GDP category?
-* What is the distribution of wealth in North Dakota?
-* Who are the dominant monopoly forces? 
-* Who are the antimonopoly forces?
+* ##### Who are the workers and occupations in North Dakota that product its wealth?
+* ##### What is the compensation paid to workers in North Dakota, by each GDP category? 
+* ##### What is the surplus extracted in each category? 
+* ##### What are the taxes paid by each GDP category?
+* ##### What are the subsidies received by each GDP category?
+* ##### What is the distribution of wealth in North Dakota?
+* ##### Who are the dominant monopoly forces? 
+* ##### Who are the antimonopoly forces?
 
-The goal: when we get to the end, there is an 
-outline of an anti-monopoly strategy.
+**_The goal: when we get to the end, there is an 
+outline of an anti-monopoly strategy._**
 
 
 

@@ -14,6 +14,7 @@ class DataConfig:   #  needs to include data type (GDP, Surplus, Taxation, compe
                                 'TAX': f'data/sagdp/SAGDP6_ND_1997_2024.csv',
                                 'SURPLUS': f'data/sagdp/SAGDP7_ND_1997_2024.csv',
                                 'REAL_GDP': f'data/sagdp/SAGDP9_ND_1997_2025.csv',
+                                'MEDIAN_INCOME': f'data/nd/nd_median_fam_income_84-24.csv',
                                 },
                          'ALL': {'EMP': f'{ddir}/json/bundle.json'},
                          'WV': {'GDP': f'{ddir}/data/sagdp/SAGDP2_WV_1997_2025.csv',
@@ -24,6 +25,7 @@ class DataConfig:   #  needs to include data type (GDP, Surplus, Taxation, compe
                                 'TAX': f'data/sagdp/SAGDP6_WV_1997_2024.csv',
                                 'SURPLUS': f'data/sagdp/SAGDP7_WV_1997_2024.csv',
                                 'REAL_GDP': f'data/sagdp/SAGDP9_WV_1997_2025.csv',
+                                'MEDIAN_INCOME': f'data/wv/wv_medians.csv',
                                 },
 
                          'MN': {'GDP': f'{ddir}/data/sagdp/SAGDP2_MN_1997_2025.csv',
@@ -55,6 +57,7 @@ class DataConfig:   #  needs to include data type (GDP, Surplus, Taxation, compe
             raise ValueError(f"State {sa_name} not registered in EmpConfig.registered_states.")
         if sa_name == 'ND':
             fn = DataConfig.registered_states[f'{sa_name}'][f'{doc}']
+            print(fn, "assert exists:")
             assert Path(fn).exists(), f"File {fn} does not exist."
 
             if Path(fn).suffix == '.csv':
