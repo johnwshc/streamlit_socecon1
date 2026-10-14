@@ -5,7 +5,22 @@ from employees_2024 import EmpInd2024 as EmpInd
 import pandas as pd
 
 
+class StateDisplays:
+    def do_median_income(self, df: pd.DataFrame) -> None:
+        fig = px.choropleth(df,
+                            locations='state_code',
+                            locationmode="USA-states",
+                            scope="usa",
+                            color='median_income',
+                            color_continuous_scale="Viridis",
+                            title="US Median Household Income by State")
+        fig.show()
+
+
 class GdpDisplays:
+
+    # Assumes df has a column with 2-letter state abbreviations (e.g., 'NY', 'CA')
+
 
     def __init__(self, mgr: Mgr):
         self.gmgr = mgr
@@ -14,6 +29,21 @@ class GdpDisplays:
         self.sdf_r2.drop(['clean_description'], axis=1, inplace=True)
         self.state = self.gmgr.state_name
 
+    #  get median nd incomes 2000-2024
+
+    def median_comp_2000_2024(self) -> px.line:
+        df_med = self.gmgr.load_real_median_2000_2024()
+
+
+
+        # Create the figure
+        fig_med = px.line(df_med,
+                          x="years",
+                          y="medians",
+                          title=f"{self.state} Real Median Family Incomes 2000-2024")
+
+        # Render the interactive plot
+        return fig_med
 
     def sa_gdp_by_industry_r2(self) -> px.bar:
         sorted_df = self.sdf_r2.sort_values(by='2024', ascending=False)
@@ -35,24 +65,26 @@ class GdpDisplays:
             title=f'2024 {self.state} {self.gmgr.title}'
         )
         return fig
+
+
     def sagdp_totals_yrs(self) -> px.bar:
         data_yrs = ['1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004',
                     '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014',
                     '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024']
         all_data = self.gmgr.data_all_class
         all_data_attrs = all_data.get_attrs()
-        all_yrs_total_nom_gdp = {k: d for k, d in all_data_attrs.items() if k in data_yrs}
-        all_yrs_total_nom_gdp_ser = pd.Series(all_yrs_total_nom_gdp)
-        data_nd = all_yrs_total_nom_gdp_ser
-        data_nd_df = data_nd.reset_index(inplace=False)
-        data_nd_df.columns = ['Year', 'Total_GDP']
-        fig_tot = px.bar(data_nd_df,
+        all_yrs_total = {k: d for k, d in all_data_attrs.items() if k in data_yrs}
+        all_yrs_total_ser = pd.Series(all_yrs_total)
+        data_df = all_yrs_total_ser.reset_index(inplace=False)
+        data_df.columns = ['Year', 'Total_GDP']
+        fig_tot = px.bar(data_df,
                      x='Year',
                      y='Total_GDP',
-                     title='Total North Dakota GDP by Year',
+                     title=f'Total {self.state} GDP by Year',
                      labels={'Total_GDP': 'Total GDP (in millions of USD)'}
                      )
         return fig_tot
+
 
 
 class EmpDisplays:
@@ -67,7 +99,7 @@ class EmpDisplays:
         emp_dff.rename(columns={f'{mgr.state_name}': '2024 employees (in thousands)'}, inplace=True)
         emp_dff.drop(['Description'], axis=1, inplace=True)
         self.emp_dff = emp_dff.copy(deep=True)
-        # print(f"emp_dff.head() {self.emp_dff.head()}")
+        print(f"emp_dff.head() {self.emp_dff.head()}")
 
 
 
@@ -92,6 +124,8 @@ class EmpDisplays:
             title=f'{state} Employment Industry Category'
         )
         return fig
+
+
 
 
 

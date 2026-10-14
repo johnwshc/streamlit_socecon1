@@ -45,6 +45,14 @@ class StateEmpDataBundle:
             Units=json_dict['Units']
         )
 class ERDataClass:
+    data_yrs_1 = ['1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004',
+                  '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014',
+                  '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024']
+
+    data_yrs_2 = ['2000', '2001', '2002', '2003', '2004',
+                  '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014',
+                  '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024']
+
     def __init__(self, data_dict):
         for key, value in data_dict.items():
             setattr(self, key, value)
@@ -57,6 +65,14 @@ class ERDataClass:
 
     def get_attrs(self):
         return vars(self)
+
+    def get_tots_df(self) -> pd.DataFrame:
+        tots_dict = self.get_attrs()
+        tots_yrs = [yr for yr in tots_dict.keys() if yr in ERDataClass.data_yrs_2]
+        tots_yrs_vals = [val for key, val in tots_dict.items() if key in tots_yrs]
+        tots_df = pd.DataFrame({'Year': tots_yrs, 'Total_GDP': tots_yrs_vals})
+        return tots_df
+
 
 
 class SAEmpGdpMgr:
@@ -97,14 +113,12 @@ class SAEmpGdpMgr:
         self.nd_emp_lcs: List[int] = LCodes.emp_lcs
         self.df_sagdp2 = DataConfig.get_state_gdp_data(sa_name, doc)
 
-        #  get total for all industries -- not employment
+        #  get totals for all industries -- not employment
         if doc != 'EMP':
             all_total = self.df_sagdp2.iloc[0,:]
             all_total_d = all_total.to_dict()
             # print(f"all _gdp_data: {all_total_d}")
-            self.data_all_class = ERDataClass(all_total_d)
-        else:
-            self.data_all_class = None
+            self.data_all_class: ERDataClass = ERDataClass(all_total_d)
 
         # get all private industries
         private_industries = self.df_sagdp2.iloc[1,:]
@@ -129,6 +143,57 @@ class SAEmpGdpMgr:
         edf_state_data.rename(columns={'index': 'Description'}, inplace=True)
         edf_state_data['category'] = edf_state_data['Description'].apply(self.emp_ind_2024.get_emp_category)
         self.edf_state_data = edf_state_data.set_index('Description')
+
+
+
+
+    def load_real_median_2000_2024(self) -> pd.DataFrame:
+
+        saname = self.sa_name  #  'ND', 'WV', 'MN'
+        real_med_fn = DataConfig.registered_states[f'{saname}']['MEDIAN_INCOME']
+
+        def fix_nd_median(x: str):
+            sx = x.replace("$", "").replace(",", "").strip()
+            return float(sx)
+
+        dd = {}
+        # real_med = "data\\nd\\real_nd_median.csv"
+        ddict = {}
+        with open(real_med_fn, 'r') as f:
+            lines = f.readlines()
+            for line in lines:
+                parts = line.split(',', 1)
+                year = parts[0].strip()
+                median = parts[1].strip()
+                ddict[year] = median
+        # if saname == 'ND':
+        #     del ddict['year']
+        # elif saname == 'WV':
+        #     del ddict['observation_date']
+        # else:
+        #     raise ValueError(f"State {saname} not recognized.")
+
+
+        l_keys = list(ddict.keys())
+        sl_keys = l_keys[1:].copy()
+        dd = {}
+        dd['years'] = sl_keys
+        l_vals = list(ddict.values())
+        sl_vals = l_vals[1:].copy()
+        dd['medians'] = sl_vals
+        dff = pd.DataFrame(dd)
+        if saname == 'ND':
+
+            dff.medians = dff.medians.apply(fix_nd_median)
+
+        # dff['years'] = pd.to_datetime(dff['years'])
+        dff.medians = dff.medians.apply(float)
+        dff = dff.iloc[16:,].copy()
+        dff.reset_index(drop=True, inplace=True)
+
+        return dff
+
+
 
     def get_rank_2_ind2024(self) -> pd.DataFrame:
         gov_lc_83_s = self.df_sagdp2.iloc[82,].copy(deep=True)

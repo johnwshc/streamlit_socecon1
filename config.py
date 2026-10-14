@@ -14,3 +14,4 @@ class Config:
     DATA_SAINC = Path(f"{DATA_DIR}/income/SAINC").as_posix()
     POP_DATA_DIR = Path(f"{DATA_DIR}/population").as_posix()
     MARKDOWN_DIR = Path(f"{basedir}/markdown").as_posix()
+    ST_LOUIS_FED_KEY = load_dotenv('ST_LOUIS_FED_KEY')
