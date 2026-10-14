@@ -1,0 +1,86 @@
+Concordance between BEA line codes and SIC industry codes
+  Line, BEA Industry Description, SIC Code
+**********************
+  0000, Total, … 
+  0081*  Farm 01-02 
+  0082*  Nonfarm … 
+  0090   Private … 
+  0100 Agricultural services, forestry, fishing … 
+  0110 Agricultural services 07 0120 Forestry and fishing … 
+  0121 Forestry 08 0122 Fishing … 
+  0200 Mining B 0210 Metal mining 10 
+  0220 Coal mining 12 
+  0230 Oil and gas extraction 13 
+  0240 Nonmetallic minerals, except fuels 14 
+  0300 Construction C 0310 General building contractors 15 
+  0320 Heavy construction contractors 16 0330 Special trade contractors 17 
+  0400 Manufacturing D 0410 Durable goods … 
+  0413 Lumber and wood products 24 
+  0417 Furniture and fixtures 25 
+  0420 Stone, clay, and glass products 32 
+  0423 Primary metal industries 33 
+  0426 Fabricated metal products 34 
+  0429 Industrial machinery and equipment 35 
+  0432 Electronic and other electric equipment 36 
+  0435 Motor vehicles and equipment 371 
+  0438 Other transportation equipment 372-379 
+  0441 Instruments and related products 38 
+  0444 Miscellaneous manufacturing industries 39 
+  0447 Ordnance … 
+  0450 Nondurable goods … 
+  0453 Food and kindred products 20 
+  0456 Tobacco products 21 
+  0459 Textile mill products 22 
+  0462 Apparel and other textile products 23 
+  0465 Paper and allied products 26 
+  0468 Printing and publishing 27 
+  0471 Chemicals and allied products 28 
+  0474 Petroleum and coal products 29     
+  0477 Rubber and miscellaneous plastics products 30 
+  0480 Leather and leather products 31 
+  0500 Transportation and public utilities E 
+  0510 Railroad transportation 40 
+  0520 Trucking and warehousing 42 0530 Water transportation 44 
+  0540 Other transportation 41, 45-47 0541 Local and interurban passenger transit 41 0542 Transportation by air 45 
+  0543 Pipelines, except natural gas 46 
+  0544 Transportation services 47 
+  0560 Communications 48 
+  0570 Electric, gas, and sanitary services 49 
+  0610 Wholesale trade F 
+  0620 Retail trade G 
+  0621 Building materials and garden equipment 52 
+  0622 General merchandise stores 53 
+  0623 Food stores 54 
+  0624 Automotive dealers and service stations 55 
+  0625 Apparel and accessory stores 56 
+  0626 Home furniture and furnishings stores 57 
+  0627 Eating and drinking places 58 
+  0628 Miscellaneous retail 59 
+  0700 Finance, insurance, and real estate H 
+  0710 Depository and nondepository institutions 60, 61 
+  0730 Other finance, insurance, and real estate 62-65, 67 
+  0731 Security and commodity brokers 62 
+  0732 Insurance carriers 63 
+  0733 Insurance agents, brokers, and services 64 
+  0734 Real estate 65 
+  0735 Combined real estate, insurance, etc. … 
+  0736 Holding and other investment offices 67 0800 Services I 0805 Hotels and other lodging places 70 0810 Personal services 72 
+  0815 Private households 88 
+  0820 Business services 73 
+  0825 Automotive repair, services, and parking 75 
+  0830 Miscellaneous repair services 76 
+  0835 Amusement and recreation services 79 
+  0840 Motion pictures 78 
+  0845 Health services 80 
+  0850 Legal services 81 
+  0855 Educational services 82 
+  0860 Social services 83 November 2017 L  
+  0865 Museums, botanical, zoological gardens 
+  0870 Membership organizations 
+  0875 Engineering and management services 
+  0880 Miscellaneous services 0900 Government and government enterprises 
+  0910 Federal, civilian 
+  0920 Military 
+  0930 State and local 
+  0931 State government 
+  0932 Local government 84 86 87 89 … … … … … …
