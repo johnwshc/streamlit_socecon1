@@ -399,12 +399,15 @@ class ParseBlsSmSid:
 
 
 class BuildBlsSmSid:
+    def __init__(self, prefix:str, seas_adj:str, state:str, area:str, super_ind:str, data_type:str):
         self.prefix = prefix
         self.seas_adj = seas_adj
         self.state = state
         self.area = area
         self.super_ind = super_ind
         self.data_type = data_type
+
+    def build(self):
 
         return BlsSmSid(prefix=self.prefix,
                         seas_adj=self.seas_adj,
@@ -452,9 +455,8 @@ class BlsStateEmpRequest:
         return x
 
 
-
-
 class SMQuery:
+    def __init__(self, sid:list|BlsSmSid, state:str='54'):
         if type(sid)==list:
             self.sids:list[BlsSmSid] = sid
         elif type(sid)==BlsSmSid:
