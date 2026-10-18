@@ -4,5 +4,9 @@ pandas~=2.3.3
 numpy~=2.4.2
 plotly
 
+<<<<<<< HEAD
 requests
 pydantic
+=======
+requests
+>>>>>>> 129a309e44218cddd38aa4acf0640634ab430afb

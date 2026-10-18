@@ -1,4 +1,3 @@
-
 import requests
 import pandas as pd
 from dataclasses import dataclass
@@ -257,8 +256,6 @@ class BeaMgr:
         self.geofips = geofips
         self.bea_data = BeaData(geofips=self.geofips)
         self.bea_lc_df = BEA_META.get_line_codes()
-        self.bls_industry_codes_de = IndustryData().industries_code_dict
-        self.bls_industry_names_dd = IndustryData().industries_name_dict
         self.lc_orig_index = LCIndex.parse_codes()
         self.lcx_r2_codes = [str(lc.LineCode) for lc in self.lc_orig_index.lcx_codes if  lc.Rank == 2]
         self.short_codes = self.lcx_r2_codes[:3]

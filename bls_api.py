@@ -1,4 +1,5 @@
 import requests
+import time
 from pydantic import BaseModel, Field
 import pandas as pd
 from pathlib import Path
@@ -378,6 +379,7 @@ class ParseBlsSmSid:
     def get_industry_from_sid(cls, sid: str) -> str|None:
         return ParseBlsSmSid(sid).super_ind
 
+
     def get_industry_name(self):
 
         return IndustryData().find_industries_name(self.super_ind)
@@ -397,7 +399,6 @@ class ParseBlsSmSid:
 
 
 class BuildBlsSmSid:
-    def __init__(self, prefix:str, seas_adj:str, state:str, area:str, super_ind:str, data_type:str):
         self.prefix = prefix
         self.seas_adj = seas_adj
         self.state = state
@@ -405,7 +406,6 @@ class BuildBlsSmSid:
         self.super_ind = super_ind
         self.data_type = data_type
 
-    def build(self):
         return BlsSmSid(prefix=self.prefix,
                         seas_adj=self.seas_adj,
                         state=self.state,
@@ -424,7 +424,6 @@ class BlsStateEmpRequest:
 
     def do_request(self) -> pd.DataFrame:
         p = requests.post(self.url, data=self.data, headers=self.headers)
-        # print(f"len of p.txt = {len(p.text)}")
         json_data = json.loads(p.text)
         x = pd.DataFrame(data=None,
                          index=None,
@@ -453,8 +452,9 @@ class BlsStateEmpRequest:
         return x
 
 
+
+
 class SMQuery:
-    def __init__(self, sid:BlsSmSid|list[BlsSmSid], ind_desc:str, state:str):
         if type(sid)==list:
             self.sids:list[BlsSmSid] = sid
         elif type(sid)==BlsSmSid:
@@ -463,14 +463,20 @@ class SMQuery:
             raise ValueError(f"Invalid sid type: {type(sid)}")
         self.api_key = BLS_API_KEY
 
-        # self.series_ids:list[str] = [s.get_sid() for s in self.sids]
         self.state = state
-        self.ind_desc = ind_desc
 
+        self.sample_series2 = 'SMS19000002023800001'
+        self.sample_series3 = 'SMS19000002023800001'
         self.sample_series4 = 'SMS54000000000000001'
         self.single_queries = {'v1': f"https://api.bls.gov/publicAPI/v1/timeseries/data/{self.sample_series4}",
         'v2': f"https://api.bls.gov/publicAPI/v2/timeseries/data/{self.sample_series4}",
         'url_v2_data': f"?startyear=2024&endyear=2024&registrationkey={BLS_API_KEY}"}
+        #
+        # r = requests.get(url_v1)
+        # print(r.json())
+        #
+        # simple_vi_res_json = r.json()
+        # v2_resp = requests.get(url_v2)}
 
 
     @classmethod
@@ -495,8 +501,6 @@ class SMQuery:
 
 
 # multiples with v2
-#     @classmethod
-    def bls_v2_SM_multi_request(self, series_ids:list, api_key:str, startyear:str, endyear:str) ->list|dict:
         headers = {'Content-type': 'application/json'}
 
         data = json.dumps({"seriesid": series_ids,"startyear":startyear, "endyear":endyear,"registrationkey":api_key})
@@ -522,7 +526,6 @@ class SMQuery:
             time.sleep(30)
         with open(data_out_dir / outf, 'w') as outfile:
             json.dump(res_array, outfile)
-            # print(f"wrote {len(chnks)}  to {outf}")
         return res_array
 
 class ValidateIndId:

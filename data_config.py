@@ -57,6 +57,7 @@ class DataConfig:   #  needs to include data type (GDP, Surplus, Taxation, compe
             raise ValueError(f"State {sa_name} not registered in EmpConfig.registered_states.")
         if sa_name == 'ND':
             fn = DataConfig.registered_states[f'{sa_name}'][f'{doc}']
+            print(fn, "assert exists:")
             assert Path(fn).exists(), f"File {fn} does not exist."
 
             if Path(fn).suffix == '.csv':
