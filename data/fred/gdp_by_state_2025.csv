@@ -1,0 +1,69 @@
+SAGDP2 Gross domestic product (GDP) by state 1
+Gross domestic product (GDP) by state: All industry total (Millions of current dollars)
+State or DC
+GeoFIPS,GeoName,2025
+00000,United States *,30762099.0
+01000,Alabama,341154.2
+02000,Alaska,75011.6
+04000,Arizona,598188.8
+05000,Arkansas,198422.0
+06000,California,4250840.8
+08000,Colorado,584323.9
+09000,Connecticut,376455.0
+10000,Delaware,117218.0
+11000,District of Columbia,192617.5
+12000,Florida,1834641.4
+13000,Georgia,924828.9
+15000,Hawaii,124607.8
+16000,Idaho,135552.8
+17000,Illinois,1201996.1
+18000,Indiana,545234.0
+19000,Iowa,277110.1
+20000,Kansas,241378.4
+21000,Kentucky,306897.4
+22000,Louisiana,340079.8
+23000,Maine,102843.7
+24000,Maryland,568139.7
+25000,Massachusetts,820104.9
+26000,Michigan,730067.6
+27000,Minnesota,531464.9
+28000,Mississippi,165069.3
+29000,Missouri,468469.7
+30000,Montana,82357.8
+31000,Nebraska,198073.3
+32000,Nevada,281453.8
+33000,New Hampshire,125523.2
+34000,New Jersey,887174.6
+35000,New Mexico,152778.6
+36000,New York,2467674.0
+37000,North Carolina,893762.5
+38000,North Dakota,81883.3
+39000,Ohio,966779.9
+40000,Oklahoma,274421.0
+41000,Oregon,342850.1
+42000,Pennsylvania,1056446.3
+44000,Rhode Island,83956.0
+45000,South Carolina,378830.6
+46000,South Dakota,80650.3
+47000,Tennessee,589817.5
+48000,Texas,2904427.8
+49000,Utah,315973.2
+50000,Vermont,48350.3
+51000,Virginia,798447.9
+53000,Washington,894990.1
+54000,West Virginia,109276.6
+55000,Wisconsin,473037.4
+56000,Wyoming,52622.3
+91000,New England,1557233.0
+92000,Mideast,5289270.1
+93000,Great Lakes,3917115.0
+94000,Plains,1879029.9
+95000,Southeast,6881228.0
+96000,Southwest,3929816.2
+97000,Rocky Mountain,1170829.9
+98000,Far West,5969754.1
+
+Legend/Footnotes
+1. Gross Domestic Product (GDP) is in millions of current dollars (not adjusted for inflation). Industry detail is based on the 2017 North American Industry Classification System (NAICS). Calculations are performed on unrounded data.
+"* For the all industry total, government and government enterprises, federal civilian, and military, the difference between the United States and sum-of-states reflects overseas activity, economic activity taking place outside the borders of the United States by the military and associated federal civilian support staff."
+"  Last updated: April 9, 2026-- new statistics for 2025."
